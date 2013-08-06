@@ -1,3 +1,6 @@
+import parser.GccObjParser;
+import parser.Parser;
+
 import javax.swing.*;
 import java.io.*;
 import java.util.List;
@@ -7,6 +10,7 @@ public class GlobalSearcher extends SwingWorker {
     public static final String OBJ_EXT = ".obj";
     private String cppFilesDirectoryPath;
     private String objFilesDirectoryPath;
+    private String nmFilesDirectoryPath;
     private String outputFile;
     private JFrame gui;
     private ProgressDialog progressDialog;
@@ -14,6 +18,7 @@ public class GlobalSearcher extends SwingWorker {
     public GlobalSearcher(String cppFilesDirectoryPath, String outputFile, JFrame gui) {
         this.cppFilesDirectoryPath = cppFilesDirectoryPath;
         objFilesDirectoryPath = "C:\\Users\\serg\\Desktop\\gcc_POLYGON\\VC_NM";
+        nmFilesDirectoryPath = "C:\\Users\\serg\\Desktop\\gcc_POLYGON\\GCC_NM";
         this.outputFile = outputFile.length() == 0 ? "report.txt" : outputFile;
         this.gui = gui;
     }
@@ -25,7 +30,7 @@ public class GlobalSearcher extends SwingWorker {
 
 //        generateObjectFiles();
 //        analyzeObjectFiles();
-        findGlobalVariables();
+        findGlobalVariables(new GccObjParser());
 
         progressDialog.dispose();
 
@@ -109,9 +114,8 @@ public class GlobalSearcher extends SwingWorker {
         return sb.toString();
     }
 
-    private void findGlobalVariables() throws IOException {
-        VCppObjParser parser = new VCppObjParser();
-        File[] nmFiles = new File(objFilesDirectoryPath).listFiles();
+    private void findGlobalVariables(Parser parser) throws IOException {
+        File[] nmFiles = new File(nmFilesDirectoryPath).listFiles();
 
         File reportFile = new File(outputFile);
         BufferedWriter writer = new BufferedWriter(new FileWriter(reportFile));
