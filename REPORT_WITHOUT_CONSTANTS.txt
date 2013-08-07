@@ -256,9 +256,9 @@
 000343.cpp
 000344.cpp
 000345.cpp
-000346.cpp SYMBOLS
-000347.cpp SYMBOLS
-000348.cpp SYMBOLS
+000346.cpp
+000347.cpp
+000348.cpp
 000349.cpp
 000350.cpp
 000351.cpp
@@ -268,7 +268,7 @@
 000360.cpp
 000362.cpp
 000367.cpp dictionary
-000368.cpp SYMBOLS
+000368.cpp
 000369.cpp
 000370.cpp
 000371.cpp
@@ -1036,23 +1036,23 @@
 001717.cpp g gr l n timer tin tout up used
 001718.cpp g gr l n timer tin tout up used
 001719.cpp g gr l n timer tin tout up used
-001721.cpp CURSOR_WAITING PUNCTUATION_MARKS DICTIONARY_DEFAULT ADDTODICTIONARY_DEFAULT EXIT BUTTONS
-001722.cpp CURSOR_WAITING PUNCTUATION_MARKS DICTIONARY_DEFAULT ADDTODICTIONARY_DEFAULT EXIT BUTTONS
-001723.cpp CURSOR_WAITING PUNCTUATION_MARKS DICTIONARY_DEFAULT ADDTODICTIONARY_DEFAULT EXIT BUTTONS
-001724.cpp CURSOR_WAITING PUNCTUATION_MARKS DICTIONARY_DEFAULT ADDTODICTIONARY_DEFAULT EXIT BUTTONS
-001725.cpp CURSOR_WAITING PUNCTUATION_MARKS DICTIONARY_DEFAULT ADDTODICTIONARY_DEFAULT EXIT BUTTONS
-001726.cpp CURSOR_WAITING PUNCTUATION_MARKS DICTIONARY_DEFAULT ADDTODICTIONARY_DEFAULT EXIT BUTTONS
-001728.cpp CURSOR_WAITING PUNCTUATION_MARKS DICTIONARY_DEFAULT ADDTODICTIONARY_DEFAULT EXIT BUTTONS
-001729.cpp CURSOR_WAITING PUNCTUATION_MARKS DICTIONARY_DEFAULT ADDTODICTIONARY_DEFAULT EXIT BUTTONS
-001730.cpp CURSOR_WAITING PUNCTUATION_MARKS DICTIONARY_DEFAULT ADDTODICTIONARY_DEFAULT EXIT BUTTONS
-001731.cpp CURSOR_WAITING PUNCTUATION_MARKS DICTIONARY_DEFAULT ADDTODICTIONARY_DEFAULT EXIT BUTTONS
-001732.cpp CURSOR_WAITING PUNCTUATION_MARKS DICTIONARY_DEFAULT ADDTODICTIONARY_DEFAULT EXIT BUTTONS
-001733.cpp CURSOR_WAITING PUNCTUATION_MARKS DICTIONARY_DEFAULT ADDTODICTIONARY_DEFAULT EXIT BUTTONS
-001734.cpp CURSOR_WAITING PUNCTUATION_MARKS DICTIONARY_DEFAULT ADDTODICTIONARY_DEFAULT EXIT BUTTONS
-001735.cpp CURSOR_WAITING PUNCTUATION_MARKS DICTIONARY_DEFAULT ADDTODICTIONARY_DEFAULT EXIT BUTTONS
-001736.cpp CURSOR_WAITING PUNCTUATION_MARKS DICTIONARY_DEFAULT ADDTODICTIONARY_DEFAULT EXIT BUTTONS
-001737.cpp CURSOR_WAITING PUNCTUATION_MARKS DICTIONARY_DEFAULT ADDTODICTIONARY_DEFAULT EXIT BUTTONS
-001738.cpp CURSOR_WAITING PUNCTUATION_MARKS DICTIONARY_DEFAULT ADDTODICTIONARY_DEFAULT EXIT BUTTONS
+001721.cpp
+001722.cpp
+001723.cpp
+001724.cpp
+001725.cpp
+001726.cpp
+001728.cpp
+001729.cpp
+001730.cpp
+001731.cpp
+001732.cpp
+001733.cpp
+001734.cpp
+001735.cpp
+001736.cpp
+001737.cpp
+001738.cpp
 001740.cpp M N dist g h timer tin tout up used
 001742.cpp
 001743.cpp
@@ -1082,15 +1082,15 @@
 001785.cpp
 001786.cpp
 001787.cpp
-001788.cpp N punctuation voc
-001789.cpp N punctuation voc
-001790.cpp N punctuation voc
-001791.cpp N punctuation voc
-001792.cpp N punctuation voc
-001793.cpp N punctuation voc
-001794.cpp N punctuation voc
-001795.cpp N punctuation voc
-001796.cpp N punctuation voc
+001788.cpp N voc
+001789.cpp N voc
+001790.cpp N voc
+001791.cpp N voc
+001792.cpp N voc
+001793.cpp N voc
+001794.cpp N voc
+001795.cpp N voc
+001796.cpp N voc
 001798.cpp
 001799.cpp
 001800.cpp
@@ -1320,9 +1320,9 @@
 002155.cpp iLeftDigit iRightDigit DigitResized iBottomDigit iTopDigitResized iLeftDigitResized iRightDigitResized iBottomDigitResized Iter used Digit Matrix iOrder iMaxLine iMaxStolb iTopDigit iE00 iE01 iE02 iE03 iE04 iE05 iE06 iE07 iE08 iE09 iE10 iE11 iE12 iE13 iE14 iE15 iE16 iE17 iE18 iE19 query
 002156.cpp iLeftDigit iRightDigit DigitResized iBottomDigit iTopDigitResized iLeftDigitResized iRightDigitResized iBottomDigitResized Iter used Digit Matrix iOrder iMaxLine iMaxStolb iTopDigit iE00 iE01 iE02 iE03 iE04 iE05 iE06 iE07 iE08 iE09 iE10 iE11 iE12 iE13 iE14 iE15 iE16 iE17 iE18 iE19 query
 002157.cpp iLeftDigit iRightDigit DigitResized iBottomDigit iTopDigitResized iLeftDigitResized iRightDigitResized iBottomDigitResized Iter used Digit Matrix iOrder iMaxLine iMaxStolb iTopDigit iE00 iE01 iE02 iE03 iE04 iE05 iE06 iE07 iE08 iE09 iE10 iE11 iE12 iE13 iE14 iE15 iE16 iE17 iE18 iE19 query
-002158.cpp inf
-002159.cpp inf
-002160.cpp inf
+002158.cpp
+002159.cpp
+002160.cpp
 002161.cpp H Input KolBlk KolWht NUMBER Plot UniNum Ves W WhtNmb numH numV rez
 002162.cpp H Input KolBlk KolWht NUMBER Plot UniNum Ves W WhtNmb numH numV rez
 002163.cpp H Input KolBlk KolWht NUMBER Plot UniNum Ves W WhtNmb numH numV rez
@@ -1330,23 +1330,23 @@
 002165.cpp H Input KolBlk KolWht NUMBER Plot UniNum Ves W WhtNmb numH numV rez
 002166.cpp H Input KolBlk KolWht NUMBER Plot UniNum Ves W WhtNmb numH numV rez
 002167.cpp H Input KolBlk KolWht NUMBER Plot UniNum Ves W WhtNmb numH numV rez
-002168.cpp inf
-002169.cpp inf
-002170.cpp inf
+002168.cpp
+002169.cpp
+002170.cpp
 002171.cpp H Input KolBlk KolWht NUMBER Plot UniNum Ves W WhtNmb numH numV rez
 002172.cpp H Input KolBlk KolWht NUMBER Plot UniNum Ves W WhtNmb numH numV rez
 002173.cpp H Input KolBlk KolWht NUMBER Plot UniNum Ves W WhtNmb numH numV rez
 002174.cpp H Input KolBlk KolWht NUMBER Plot UniNum Ves W WhtNmb numH numV rez
 002175.cpp H Input KolBlk KolWht NUMBER Plot UniNum Ves W WhtNmb numH numV rez
-002177.cpp inf
-002181.cpp keyboard
-002182.cpp keyboard
-002183.cpp keyboard
-002184.cpp keyboard
-002185.cpp keyboard
-002186.cpp keyboard
-002188.cpp keyboard
-002189.cpp keyboard
+002177.cpp
+002181.cpp
+002182.cpp
+002183.cpp
+002184.cpp
+002185.cpp
+002186.cpp
+002188.cpp
+002189.cpp
 002207.cpp
 002224.cpp iLeftDigit iRightDigit DigitResized iBottomDigit iTopDigitResized iLeftDigitResized iRightDigitResized iBottomDigitResized Iter used Digit Matrix iOrder iMaxLine iMaxStolb iTopDigit iE00 iE01 iE02 iE03 iE04 iE05 iE06 iE07 iE08 iE09 iE10 iE11 iE12 iE13 iE14 iE15 iE16 iE17 iE18 iE19 query
 002227.cpp closed_areas idealletters inputarray letters scaledletters value
@@ -1695,16 +1695,16 @@
 002650.cpp btns cmdLine cursorPos dict entryCount flPunctuation lastSuggestedEntry maxNewFreqFlag punctuationMark resultLine suggestedEntry
 002651.cpp btns cmdLine cursorPos dict entryCount flPunctuation lastSuggestedEntry maxNewFreqFlag punctuationMark resultLine suggestedEntry
 002655.cpp
-002656.cpp keyboard dict
-002657.cpp keyboard dict
-002658.cpp keyboard dict
-002659.cpp keyboard dict
-002660.cpp keyboard dict
-002661.cpp keyboard dict
+002656.cpp dict
+002657.cpp dict
+002658.cpp dict
+002659.cpp dict
+002660.cpp dict
+002661.cpp dict
 002662.cpp
-002663.cpp keyboard current_key dict shift
-002664.cpp keyboard current_key dict shift
-002665.cpp keyboard current_key dict shift
+002663.cpp current_key dict shift
+002664.cpp current_key dict shift
+002665.cpp current_key dict shift
 002667.cpp
 002677.cpp curr dict high low t
 002678.cpp curr dict high low t
@@ -1776,11 +1776,11 @@
 002755.cpp dict high low t
 002756.cpp depth depth_bin g parent used way way_bin
 002757.cpp depth depth_bin g parent used way way_bin
-002759.cpp keyboard current_key dict shift
+002759.cpp current_key dict shift
 002760.cpp ancestor dfs_first dfs_len dfs_list dsu g mp_order mp_side q r u
 002762.cpp but mp_dict punkt
-002763.cpp keyboard current_key dict shift
-002764.cpp keyboard current_key dict shift
+002763.cpp current_key dict shift
+002764.cpp current_key dict shift
 002765.cpp but mp_dict punkt
 002766.cpp but mp_dict punkt
 002767.cpp but mp_dict punkt
@@ -1789,20 +1789,20 @@
 002771.cpp dict high low t
 002772.cpp dict high low t
 002773.cpp dict high low t
-002774.cpp keyboard current_key dict shift
-002775.cpp keyboard current_key dict shift
-002776.cpp keyboard dict
-002777.cpp keyboard dict
+002774.cpp current_key dict shift
+002775.cpp current_key dict shift
+002776.cpp dict
+002777.cpp dict
 002778.cpp dict fin fout high low t
 002779.cpp dict high low t
 002780.cpp dict high low t
 002781.cpp dict high low t
-002782.cpp keyboard dict
+002782.cpp dict
 002784.cpp amt_q graph isUsed l max_n query x y
 002785.cpp amt_q graph isUsed l max_n query x y
 002786.cpp amt_q graph isUsed l max_n query x y
 002787.cpp amt_q graph isUsed l max_n query x y
-002788.cpp keyboard dict
+002788.cpp dict
 002791.cpp
 002792.cpp aTime amt_q graph isUsed l max_n query x y
 002793.cpp amt_q graph isUsed l max_n query x y
@@ -1877,7 +1877,7 @@
 002959.cpp CodesMas FL InLine N Vocabulary
 002960.cpp CodesMas FL InLine N Vocabulary
 002963.cpp MainGraph N NodesToSolve NumberOfIn NumberOfOut ParentNodes Passed Results StepNumber l m
-002968.cpp digit0 digit1 digit2 digit3 digit4 digit5 digit6 digit7 digit8 digit9
+002968.cpp
 002974.cpp dict dict_num freq keyboard
 002975.cpp
 002976.cpp dict dict_num freq keyboard
@@ -2469,7 +2469,7 @@
 003884.cpp
 003885.cpp
 003887.cpp punct query root
-003888.cpp KEYBOARD
+003888.cpp
 003889.cpp F actual_labels array_of_labels ch ch1 ch2 ch3 filled1 filled2 filled3 labels_id result s s1 s2 s3 trash
 003890.cpp F actual_labels array_of_labels ch ch1 ch2 ch3 filled1 filled2 filled3 labels_id result s s1 s2 s3 trash
 003891.cpp F actual_labels array_of_labels ch ch1 ch2 ch3 filled1 filled2 filled3 labels_id result s s1 s2 s3 trash
@@ -2658,13 +2658,13 @@
 004125.cpp ancestor dsu graph query root u
 004126.cpp ancestor dsu graph query root u
 004127.cpp
-004129.cpp ALPHABET
+004129.cpp
 004130.cpp
-004131.cpp ALPHABET
+004131.cpp
 004132.cpp
 004133.cpp
 004134.cpp
-004136.cpp ALPHABET
+004136.cpp
 004137.cpp
 004140.cpp
 004150.cpp
@@ -2683,10 +2683,10 @@
 004211.cpp
 004212.cpp
 004218.cpp
-004220.cpp ALPHABET
-004221.cpp ALPHABET
+004220.cpp
+004221.cpp
 004224.cpp
-004226.cpp ALPHABET
+004226.cpp
 004233.cpp Choice Devider NewWord Slovo dev node root
 004234.cpp actual_labels array_of_labels dictionary filled1 filled2 filled3 labels_id res s s1 s2 s3 templates_weight trash
 004236.cpp
@@ -2727,8 +2727,8 @@
 004284.cpp
 004288.cpp ancestor current_ancestor dist dsu edges_dist from graph num_of_nodes num_of_pairs q to used
 004289.cpp
-004292.cpp ALPHABET
-004293.cpp ALPHABET
+004292.cpp
+004293.cpp
 004294.cpp F
 004295.cpp F
 004299.cpp
@@ -3582,9 +3582,9 @@
 005927.cpp
 005928.cpp
 005929.cpp
-005931.cpp BUTTONS dict n output search_result shortcuts updated
-005932.cpp BUTTONS dict n output search_result shortcuts updated
-005933.cpp BUTTONS dict n output search_result shortcuts updated
+005931.cpp dict n output search_result shortcuts updated
+005932.cpp dict n output search_result shortcuts updated
+005933.cpp dict n output search_result shortcuts updated
 005936.cpp
 005937.cpp
 005938.cpp
@@ -3593,12 +3593,12 @@
 005941.cpp
 005943.cpp
 005944.cpp
-005945.cpp BUTTONS dict output search_result shortcuts updated
-005946.cpp BUTTONS dict output search_result shortcuts updated
-005947.cpp BUTTONS dict output search_result shortcuts updated
+005945.cpp dict output search_result shortcuts updated
+005946.cpp dict output search_result shortcuts updated
+005947.cpp dict output search_result shortcuts updated
 005948.cpp
 005949.cpp
-005951.cpp BUTTONS dict letters_index output search_result updated
+005951.cpp dict letters_index output search_result updated
 005956.cpp
 005957.cpp
 005958.cpp
@@ -3710,9 +3710,9 @@
 006204.cpp
 006205.cpp
 006207.cpp
-006211.cpp symbolCode
-006212.cpp symbolCode
-006213.cpp symbolCode
+006211.cpp
+006212.cpp
+006213.cpp
 006228.cpp
 006229.cpp
 006232.cpp
@@ -3749,7 +3749,7 @@
 006307.cpp
 006309.cpp
 006313.cpp
-006314.cpp symbolCode
+006314.cpp
 006315.cpp
 006316.cpp lca_dfs_list lca_dfs_visited lca_first lca_h lca_tree
 006317.cpp
@@ -4286,8 +4286,8 @@
 007094.cpp N lcount
 007096.cpp
 007097.cpp
-007100.cpp PUNCTUATION_MARK_CODE
-007101.cpp PUNCTUATION_MARK_CODE
+007100.cpp
+007101.cpp
 007102.cpp
 007105.cpp
 007114.cpp
@@ -4490,7 +4490,7 @@
 007420.cpp
 007421.cpp
 007422.cpp
-007423.cpp PUNCTUATION_MARK_CODE
+007423.cpp
 007429.cpp DFS_list LCA_tree used_in_depth_first_search vertices_height vertices_occurence
 007430.cpp DFS_list LCA_tree used_in_depth_first_search vertices_height vertices_occurence
 007431.cpp slovar t9

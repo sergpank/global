@@ -147,6 +147,9 @@ public class GlobalSearcher extends SwingWorker {
         }
         writer.flush();
         writer.close();
+
+        new ConstFilter().filterConstants();
+        new ExternVariablesExtractor().extractExternVariables();
     }
 
     private boolean isNotStrange(String globalVariable) {
