@@ -548,25 +548,25 @@
 000813.cpp
 000814.cpp
 000815.cpp
-000828.cpp N len_word max_freq max_len
-000829.cpp N len_word max_freq max_len
-000830.cpp N len_word max_freq max_len
-000831.cpp N len_word max_freq max_len
-000832.cpp N len_word max_freq max_len
-000833.cpp N len_word max_freq max_len
-000834.cpp N len_word max_freq max_len
-000835.cpp N len_word max_freq max_len
-000836.cpp N len_word max_freq max_len
-000838.cpp N len_word max_freq max_len
-000839.cpp N len_word max_freq max_len
-000840.cpp N len_word max_freq max_len
-000841.cpp N len_word max_freq max_len
-000842.cpp N len_word max_freq max_len
-000843.cpp N len_word max_freq max_len
-000844.cpp N len_word max_freq max_len
-000845.cpp N len_word max_freq max_len
-000846.cpp N len_word max_freq max_len
-000847.cpp N len_word max_freq max_len
+000828.cpp N max_len len_word max_freq
+000829.cpp N max_len len_word max_freq
+000830.cpp N max_len len_word max_freq
+000831.cpp N max_len len_word max_freq
+000832.cpp N max_len len_word max_freq
+000833.cpp N max_len len_word max_freq
+000834.cpp N max_len len_word max_freq
+000835.cpp N max_len len_word max_freq
+000836.cpp N max_len len_word max_freq
+000838.cpp N max_len len_word max_freq
+000839.cpp N max_len len_word max_freq
+000840.cpp N max_len len_word max_freq
+000841.cpp N max_len len_word max_freq
+000842.cpp N max_len len_word max_freq
+000843.cpp N max_len len_word max_freq
+000844.cpp N max_len len_word max_freq
+000845.cpp N max_len len_word max_freq
+000846.cpp N max_len len_word max_freq
+000847.cpp N max_len len_word max_freq
 000848.cpp
 000850.cpp
 000851.cpp
@@ -921,13 +921,13 @@
 001580.cpp current maxCombiSize star
 001583.cpp current star
 001586.cpp
-001587.cpp lca_dfs_list2 lca_dfs_list lca_dfs_used lca_first lca_h lca_tree
+001587.cpp lca_dfs_list lca_dfs_list2 lca_dfs_used lca_first lca_h lca_tree
 001588.cpp
 001589.cpp
-001590.cpp lca_dfs_list2 lca_dfs_list lca_dfs_used lca_first lca_h lca_tree
+001590.cpp lca_dfs_list lca_dfs_list2 lca_dfs_used lca_first lca_h lca_tree
 001591.cpp
-001592.cpp lca_dfs_list2 lca_dfs_list lca_dfs_used lca_first lca_h lca_tree
-001593.cpp lca_dfs_list2 lca_dfs_list lca_dfs_used lca_first lca_h lca_tree
+001592.cpp lca_dfs_list lca_dfs_list2 lca_dfs_used lca_first lca_h lca_tree
+001593.cpp lca_dfs_list lca_dfs_list2 lca_dfs_used lca_first lca_h lca_tree
 001594.cpp lca_dfs_list lca_dfs_used lca_first
 001595.cpp lca_dfs_list lca_dfs_used lca_first
 001596.cpp lca_dfs_list lca_dfs_used lca_first
@@ -953,8 +953,8 @@
 001618.cpp
 001622.cpp
 001623.cpp
-001626.cpp ScaleX ScaleY charToParse image res standard x y
-001627.cpp ScaleX ScaleY charToParse image res standard x y
+001626.cpp ScaleX ScaleY x1 NewX1 NewX2 NewY1 NewY2 charToParse image res standard x y
+001627.cpp ScaleX ScaleY x1 NewX1 NewX2 NewY1 NewY2 charToParse image res standard x y
 001629.cpp
 001630.cpp
 001631.cpp
@@ -968,17 +968,17 @@
 001640.cpp dict dict_num freq keyboard
 001641.cpp dict dict_num freq keyboard
 001642.cpp dict dict_num freq keyboard
-001643.cpp ScaleX ScaleY charToParse image res standard x y
+001643.cpp ScaleX ScaleY x1 NewX1 NewX2 NewY1 NewY2 charToParse image res standard x y
 001644.cpp Nodes depth depth_bin graph parent used way way_bin
 001645.cpp dict dict_num freq keyboard
 001646.cpp dict dict_num freq keyboard
-001647.cpp ScaleX ScaleY charToParse image res standard x y
-001648.cpp ScaleX ScaleY charToParse image res standard x y
+001647.cpp ScaleX ScaleY x1 NewX1 NewX2 NewY1 NewY2 charToParse image res standard x y
+001648.cpp ScaleX ScaleY x1 NewX1 NewX2 NewY1 NewY2 charToParse image res standard x y
 001649.cpp dict dict_num freq keyboard
 001650.cpp dict dict_num freq keyboard
 001651.cpp
 001652.cpp len mistake test tree used
-001653.cpp ScaleX ScaleY charToParse image res standard x y
+001653.cpp ScaleX ScaleY x1 NewX1 NewX2 NewY1 NewY2 charToParse image res standard x y
 001654.cpp
 001655.cpp
 001656.cpp
@@ -991,7 +991,7 @@
 001663.cpp
 001664.cpp
 001665.cpp
-001666.cpp ScaleX ScaleY charToParse image res standard x y
+001666.cpp ScaleX ScaleY x1 NewX1 NewX2 NewY1 NewY2 charToParse image res standard x y
 001667.cpp
 001668.cpp
 001669.cpp
@@ -1010,8 +1010,8 @@
 001682.cpp dict dict_num freq keyboard
 001683.cpp
 001684.cpp
-001685.cpp ScaleX ScaleY charToParse image res standard x y
-001686.cpp ScaleX ScaleY charToParse image res standard x y
+001685.cpp ScaleX ScaleY x1 NewX1 NewX2 NewY1 NewY2 charToParse image res standard x y
+001686.cpp ScaleX ScaleY x1 NewX1 NewX2 NewY1 NewY2 charToParse image res standard x y
 001687.cpp
 001688.cpp
 001689.cpp
@@ -1150,12 +1150,12 @@
 001924.cpp H Input KolBlk KolWht NUMBER Plot UniNum Ves W WhtNmb numH numV rez
 001925.cpp H Input KolBlk KolWht NUMBER Plot UniNum Ves W WhtNmb numH numV rez
 001927.cpp Active Graf Label Last M N Start V i j k
-001928.cpp
+001928.cpp a g h bt brmq log2 a_pos bhash block h_long
 001929.cpp Active Graf Label Last M N Start V i j k v_1 v_2
-001930.cpp
-001933.cpp
+001930.cpp a g h bt brmq log2 a_pos bhash block h_long
+001933.cpp a g h bt brmq log2 a_pos bhash block h_long
 001936.cpp N h i j k m t temp temp_code temp_rate
-001937.cpp
+001937.cpp a g h bt brmq log2 a_pos bhash block h_long
 001939.cpp
 001940.cpp
 001941.cpp
@@ -1316,10 +1316,10 @@
 002139.cpp H Input KolBlk KolWht NUMBER Plot UniNum Ves W WhtNmb numH numV rez
 002140.cpp H Input KolBlk KolWht NUMBER Plot UniNum Ves W WhtNmb numH numV rez
 002141.cpp H Input KolBlk KolWht NUMBER Plot UniNum Ves W WhtNmb numH numV rez
-002153.cpp iE00 iE01 iE02 iE03 iE04 iE05 iE06 iE07 iE08 iE09 iE10 iE11 iE12 iE13 iE14 iE15 iE16 iE17 iE18 iE19 query iOrder
-002155.cpp iE00 iE01 iE02 iE03 iE04 iE05 iE06 iE07 iE08 iE09 iE10 iE11 iE12 iE13 iE14 iE15 iE16 iE17 iE18 iE19 query iOrder
-002156.cpp iE00 iE01 iE02 iE03 iE04 iE05 iE06 iE07 iE08 iE09 iE10 iE11 iE12 iE13 iE14 iE15 iE16 iE17 iE18 iE19 query iOrder
-002157.cpp iE00 iE01 iE02 iE03 iE04 iE05 iE06 iE07 iE08 iE09 iE10 iE11 iE12 iE13 iE14 iE15 iE16 iE17 iE18 iE19 query iOrder
+002153.cpp iLeftDigit iRightDigit DigitResized iBottomDigit iTopDigitResized iLeftDigitResized iRightDigitResized iBottomDigitResized Iter used Digit Matrix iOrder iMaxLine iMaxStolb iTopDigit iE00 iE01 iE02 iE03 iE04 iE05 iE06 iE07 iE08 iE09 iE10 iE11 iE12 iE13 iE14 iE15 iE16 iE17 iE18 iE19 query
+002155.cpp iLeftDigit iRightDigit DigitResized iBottomDigit iTopDigitResized iLeftDigitResized iRightDigitResized iBottomDigitResized Iter used Digit Matrix iOrder iMaxLine iMaxStolb iTopDigit iE00 iE01 iE02 iE03 iE04 iE05 iE06 iE07 iE08 iE09 iE10 iE11 iE12 iE13 iE14 iE15 iE16 iE17 iE18 iE19 query
+002156.cpp iLeftDigit iRightDigit DigitResized iBottomDigit iTopDigitResized iLeftDigitResized iRightDigitResized iBottomDigitResized Iter used Digit Matrix iOrder iMaxLine iMaxStolb iTopDigit iE00 iE01 iE02 iE03 iE04 iE05 iE06 iE07 iE08 iE09 iE10 iE11 iE12 iE13 iE14 iE15 iE16 iE17 iE18 iE19 query
+002157.cpp iLeftDigit iRightDigit DigitResized iBottomDigit iTopDigitResized iLeftDigitResized iRightDigitResized iBottomDigitResized Iter used Digit Matrix iOrder iMaxLine iMaxStolb iTopDigit iE00 iE01 iE02 iE03 iE04 iE05 iE06 iE07 iE08 iE09 iE10 iE11 iE12 iE13 iE14 iE15 iE16 iE17 iE18 iE19 query
 002158.cpp
 002159.cpp
 002160.cpp
@@ -1348,7 +1348,7 @@
 002188.cpp
 002189.cpp
 002207.cpp
-002224.cpp iE00 iE01 iE02 iE03 iE04 iE05 iE06 iE07 iE08 iE09 iE10 iE11 iE12 iE13 iE14 iE15 iE16 iE17 iE18 iE19 query iOrder
+002224.cpp iLeftDigit iRightDigit DigitResized iBottomDigit iTopDigitResized iLeftDigitResized iRightDigitResized iBottomDigitResized Iter used Digit Matrix iOrder iMaxLine iMaxStolb iTopDigit iE00 iE01 iE02 iE03 iE04 iE05 iE06 iE07 iE08 iE09 iE10 iE11 iE12 iE13 iE14 iE15 iE16 iE17 iE18 iE19 query
 002227.cpp closed_areas idealletters inputarray letters scaledletters value
 002228.cpp MinRasst Result Tree Ves
 002231.cpp MinRasst Result Tree Ves
@@ -1375,17 +1375,17 @@
 002258.cpp start
 002259.cpp start
 002260.cpp start
-002261.cpp MinRasst Result Tree1 Tree Ves
-002262.cpp MinRasst Result Tree1 Tree Ves
-002265.cpp MinRasst Result Tree1 Tree Ves nmbr
-002266.cpp iE00 iE01 iE02 iE03 iE04 iE05 iE06 iE07 iE08 iE09 query iOrder
-002267.cpp iE00 iE01 iE02 iE03 iE04 iE05 iE06 iE07 iE08 iE09 query iOrder
-002280.cpp iE00 iE01 iE02 iE03 iE04 iE05 iE06 iE07 iE08 iE09 query iOrder
-002281.cpp iE00 iE01 iE02 iE03 iE04 iE05 iE06 iE07 iE08 iE09 query iOrder
-002282.cpp iE00 iE01 iE02 iE03 iE04 iE05 iE06 iE07 iE08 iE09 query iOrder
-002283.cpp iE00 iE01 iE02 iE03 iE04 iE05 iE06 iE07 iE08 iE09 query iOrder
+002261.cpp MinRasst Result Tree Tree1 Ves
+002262.cpp MinRasst Result Tree Tree1 Ves
+002265.cpp MinRasst Result Tree Tree1 Ves nmbr
+002266.cpp iLeftDigit iRightDigit DigitResized iBottomDigit iTopDigitResized iLeftDigitResized iRightDigitResized iBottomDigitResized Iter used Digit Matrix iOrder iMaxLine iMaxStolb iTopDigit iE00 iE01 iE02 iE03 iE04 iE05 iE06 iE07 iE08 iE09 query
+002267.cpp iLeftDigit iRightDigit DigitResized iBottomDigit iTopDigitResized iLeftDigitResized iRightDigitResized iBottomDigitResized Iter used Digit Matrix iOrder iMaxLine iMaxStolb iTopDigit iE00 iE01 iE02 iE03 iE04 iE05 iE06 iE07 iE08 iE09 query
+002280.cpp iLeftDigit iRightDigit DigitResized iBottomDigit iTopDigitResized iLeftDigitResized iRightDigitResized iBottomDigitResized Iter used Digit Matrix iOrder iMaxLine iMaxStolb iTopDigit iE00 iE01 iE02 iE03 iE04 iE05 iE06 iE07 iE08 iE09 query
+002281.cpp iLeftDigit iRightDigit DigitResized iBottomDigit iTopDigitResized iLeftDigitResized iRightDigitResized iBottomDigitResized Iter used Digit Matrix iOrder iMaxLine iMaxStolb iTopDigit iE00 iE01 iE02 iE03 iE04 iE05 iE06 iE07 iE08 iE09 query
+002282.cpp iLeftDigit iRightDigit DigitResized iBottomDigit iTopDigitResized iLeftDigitResized iRightDigitResized iBottomDigitResized Iter used Digit Matrix iOrder iMaxLine iMaxStolb iTopDigit iE00 iE01 iE02 iE03 iE04 iE05 iE06 iE07 iE08 iE09 query
+002283.cpp iLeftDigit iRightDigit DigitResized iBottomDigit iTopDigitResized iLeftDigitResized iRightDigitResized iBottomDigitResized Iter used Digit Matrix iOrder iMaxLine iMaxStolb iTopDigit iE00 iE01 iE02 iE03 iE04 iE05 iE06 iE07 iE08 iE09 query
 002284.cpp
-002285.cpp iE00 iE01 iE02 iE03 iE04 iE05 iE06 iE07 iE08 iE09 query iOrder
+002285.cpp iLeftDigit iRightDigit DigitResized iBottomDigit iTopDigitResized iLeftDigitResized iRightDigitResized iBottomDigitResized Iter used Digit Matrix iOrder iMaxLine iMaxStolb iTopDigit iE00 iE01 iE02 iE03 iE04 iE05 iE06 iE07 iE08 iE09 query
 002286.cpp dict dictsize inputstring keyboard keynumb localdict maxword minword node1 outputstring point
 002289.cpp
 002290.cpp
@@ -1417,11 +1417,11 @@
 002320.cpp Dictionary inputstring keyboard node outputstring tempTree
 002321.cpp Dictionary inputstring keyboard node outputstring tempTree
 002322.cpp Dictionary inputstring jj keyboard leafes node outputstring tempTree
-002323.cpp MinRasst Result Tree1 Tree Ves nmbr
-002324.cpp MinRasst Result Tree1 Tree Ves nmbr
-002325.cpp Kol MinRasst Number Result Tree1 Tree Ves ip nmbr
+002323.cpp MinRasst Result Tree Tree1 Ves nmbr
+002324.cpp MinRasst Result Tree Tree1 Ves nmbr
+002325.cpp Kol MinRasst Number Result Tree Tree1 Ves ip nmbr
 002326.cpp inputstring it keyboard outputstring words
-002327.cpp Kol MinRasst Number Result Tree1 Tree Ves ip nmbr
+002327.cpp Kol MinRasst Number Result Tree Tree1 Ves ip nmbr
 002328.cpp
 002329.cpp
 002330.cpp
@@ -1462,11 +1462,11 @@
 002371.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mini_copy nomer_raspoz_obraza obraz_cifra obrazi procent_black sootnoshenie sum_black sum_element vhod vhod_2 vhod_3
 002372.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mini_copy nomer_raspoz_obraza obraz_cifra obrazi procent_black sootnoshenie sum_black sum_element vhod vhod_2 vhod_3
 002373.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mini_copy nomer_raspoz_obraza obraz_cifra obrazi procent_black sootnoshenie sum_black sum_element vhod vhod_2 vhod_3
-002374.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v2 v3 v
-002375.cpp all_soot_a kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black soot sum_black sum_element v2 v3 v
-002376.cpp all_soot_a kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black soot sum_black sum_element v2 v3 v
-002377.cpp all_soot_a kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black soot sum_black sum_element v2 v3 v
-002378.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v2 v3 v
+002374.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v v2 v3
+002375.cpp all_soot_a kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black soot sum_black sum_element v v2 v3
+002376.cpp all_soot_a kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black soot sum_black sum_element v v2 v3
+002377.cpp all_soot_a kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black soot sum_black sum_element v v2 v3
+002378.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v v2 v3
 002380.cpp First1 NodesCount PairsCount
 002381.cpp c infile infinity ishodnaya konechnaya p stolbez stroka su v z znachenie
 002382.cpp c infile infinity ishodnaya konechnaya p stolbez stroka su v z znachenie
@@ -1544,50 +1544,50 @@
 002484.cpp kods kol_word mas_word otvet
 002485.cpp kods kol_word mas_word otvet
 002486.cpp kods kol_word mas_word otvet
-002487.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v2 v3 v
-002488.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v2 v3 v
-002489.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v2 v3 v
-002490.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v2 v3 v
-002491.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v2 v3 v
-002492.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v2 v3 v
-002493.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v2 v3 v
-002494.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v2 v3 v
-002495.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v2 v3 v
-002496.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v2 v3 v
+002487.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v v2 v3
+002488.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v v2 v3
+002489.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v v2 v3
+002490.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v v2 v3
+002491.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v v2 v3
+002492.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v v2 v3
+002493.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v v2 v3
+002494.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v v2 v3
+002495.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v v2 v3
+002496.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v v2 v3
 002497.cpp Graf Was Ways
 002498.cpp mytree
-002499.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v2 v3 v
-002500.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v2 v3 v
+002499.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v v2 v3
+002500.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v v2 v3
 002503.cpp Graf Leaf Length Was Ways WaysBool myin
 002504.cpp mytree
-002505.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v2 v3 v
-002506.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v2 v3 v
-002507.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v2 v3 v
-002508.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v2 v3 v
-002509.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v2 v3 v
-002510.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v2 v3 v
-002511.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v2 v3 v
-002512.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v2 v3 v
-002513.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v2 v3 v
-002514.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v2 v3 v
-002515.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v2 v3 v
-002516.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v2 v3 v
-002517.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v2 v3 v
-002518.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v2 v3 v
-002519.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v2 v3 v
-002520.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v2 v3 v
-002521.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v2 v3 v
-002522.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v2 v3 v
-002523.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v2 v3 v
-002524.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v2 v3 v
-002525.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v2 v3 v
-002526.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v2 v3 v
-002527.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v2 v3 v
-002528.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v2 v3 v
-002529.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v2 v3 v
-002530.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v2 v3 v
-002531.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v2 v3 v
-002532.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v2 v3 v
+002505.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v v2 v3
+002506.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v v2 v3
+002507.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v v2 v3
+002508.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v v2 v3
+002509.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v v2 v3
+002510.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v v2 v3
+002511.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v v2 v3
+002512.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v v2 v3
+002513.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v v2 v3
+002514.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v v2 v3
+002515.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v v2 v3
+002516.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v v2 v3
+002517.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v v2 v3
+002518.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v v2 v3
+002519.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v v2 v3
+002520.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v v2 v3
+002521.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v v2 v3
+002522.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v v2 v3
+002523.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v v2 v3
+002524.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v v2 v3
+002525.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v v2 v3
+002526.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v v2 v3
+002527.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v v2 v3
+002528.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v v2 v3
+002529.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v v2 v3
+002530.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v v2 v3
+002531.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v v2 v3
+002532.cpp all_sootnoshenia kol_vo_obrazov mas maxi maxj mc nomer_raspoz_obraza o obraz_cifra procent_black sootnoshenie sum_black sum_element v v2 v3
 002533.cpp kods kol_word mas_word otvet
 002534.cpp kods kol_word mas_word otvet
 002535.cpp
@@ -1951,14 +1951,14 @@
 003095.cpp keyboard
 003096.cpp keyboard
 003103.cpp
-003105.cpp N message point words len_word
-003106.cpp N message point words len_word
+003105.cpp N len_word message point words
+003106.cpp N len_word message point words
 003107.cpp
-003108.cpp N point words len_word max_len
-003109.cpp N point words len_word max_len
-003110.cpp N point words len_word max_len
-003111.cpp N point words len_word max_len
-003112.cpp N point words len_word max_len
+003108.cpp N max_len len_word point words
+003109.cpp N max_len len_word point words
+003110.cpp N max_len len_word point words
+003111.cpp N max_len len_word point words
+003112.cpp N max_len len_word point words
 003114.cpp
 003115.cpp
 003116.cpp fin
@@ -2238,7 +2238,7 @@
 003484.cpp M ans ansLength length requests uniqueRequests
 003485.cpp M ansLength length
 003487.cpp M length
-003495.cpp fp1 fp
+003495.cpp fp fp1
 003496.cpp
 003499.cpp amount borders distrib pic picture positions prob res used
 003501.cpp weights
@@ -2439,13 +2439,13 @@
 003821.cpp
 003822.cpp Union answers completed d_to_parent d_to_union edges_lengths graph parent query query_line used
 003823.cpp Union answers completed d_to_parent d_to_union edges_lengths graph parent query query_line used
-003838.cpp actual_labels array_of_labels ch1 ch2 ch3 ch filled labels_id result s1 s2 s3 s
+003838.cpp actual_labels array_of_labels ch ch1 ch2 ch3 filled labels_id result s s1 s2 s3
 003841.cpp LetterTree TestString WordList
 003842.cpp AllPairs Count PairCount Tree
-003843.cpp actual_labels array_of_labels ch1 ch2 ch3 ch filled1 filled2 filled3 labels_id result s1 s2 s3 s
-003844.cpp F actual_labels array_of_labels ch1 ch2 ch3 ch filled1 filled2 filled3 labels_id result s1 s2 s3 s trash
-003845.cpp actual_labels array_of_labels ch1 ch2 ch3 ch filled1 filled2 filled3 labels_id result s1 s2 s3 s trash
-003846.cpp F actual_labels array_of_labels ch1 ch2 ch3 ch filled1 filled2 filled3 labels_id result s1 s2 s3 s trash
+003843.cpp actual_labels array_of_labels ch ch1 ch2 ch3 filled1 filled2 filled3 labels_id result s s1 s2 s3
+003844.cpp F actual_labels array_of_labels ch ch1 ch2 ch3 filled1 filled2 filled3 labels_id result s s1 s2 s3 trash
+003845.cpp actual_labels array_of_labels ch ch1 ch2 ch3 filled1 filled2 filled3 labels_id result s s1 s2 s3 trash
+003846.cpp F actual_labels array_of_labels ch ch1 ch2 ch3 filled1 filled2 filled3 labels_id result s s1 s2 s3 trash
 003847.cpp LetterTree TestString WordList
 003848.cpp LetterTree TestString WordList
 003849.cpp AllPairs Count PairCount Tree
@@ -2454,30 +2454,30 @@
 003852.cpp LetterTree TestString WordList
 003854.cpp LetterTree TestString WordList mytime
 003858.cpp lca_dfs_list lca_dfs_used lca_first lca_h lca_tree lca_w lca_weight
-003859.cpp F actual_labels array_of_labels ch1 ch2 ch3 ch filled1 filled2 filled3 labels_id result s1 s2 s3 s trash
+003859.cpp F actual_labels array_of_labels ch ch1 ch2 ch3 filled1 filled2 filled3 labels_id result s s1 s2 s3 trash
 003860.cpp lca_dfs_list lca_dfs_used lca_first lca_h lca_tree lca_w lca_weight
-003868.cpp F actual_labels array_of_labels ch1 ch2 ch3 ch filled1 filled2 filled3 labels_id result s1 s2 s3 s trash
+003868.cpp F actual_labels array_of_labels ch ch1 ch2 ch3 filled1 filled2 filled3 labels_id result s s1 s2 s3 trash
 003869.cpp AllPairs Count MaxNumber PairCount Tree2
 003870.cpp AllPairs Count MaxNumber PairCount Tree2 UnBound
-003877.cpp F actual_labels array_of_labels ch1 ch2 ch3 ch filled1 filled2 filled3 labels_id result s1 s2 s3 s trash
-003878.cpp F actual_labels array_of_labels ch1 ch2 ch3 ch filled1 filled2 filled3 labels_id result s1 s2 s3 s trash
-003879.cpp F actual_labels array_of_labels ch1 ch2 ch3 ch filled1 filled2 filled3 labels_id result s1 s2 s3 s trash
-003880.cpp F actual_labels array_of_labels ch1 ch2 ch3 ch filled1 filled2 filled3 labels_id result s1 s2 s3 s trash
-003881.cpp F actual_labels array_of_labels ch1 ch2 ch3 ch filled1 filled2 filled3 labels_id result s1 s2 s3 s trash
-003882.cpp F actual_labels array_of_labels ch1 ch2 ch3 ch filled1 filled2 filled3 labels_id result s1 s2 s3 s trash
+003877.cpp F actual_labels array_of_labels ch ch1 ch2 ch3 filled1 filled2 filled3 labels_id result s s1 s2 s3 trash
+003878.cpp F actual_labels array_of_labels ch ch1 ch2 ch3 filled1 filled2 filled3 labels_id result s s1 s2 s3 trash
+003879.cpp F actual_labels array_of_labels ch ch1 ch2 ch3 filled1 filled2 filled3 labels_id result s s1 s2 s3 trash
+003880.cpp F actual_labels array_of_labels ch ch1 ch2 ch3 filled1 filled2 filled3 labels_id result s s1 s2 s3 trash
+003881.cpp F actual_labels array_of_labels ch ch1 ch2 ch3 filled1 filled2 filled3 labels_id result s s1 s2 s3 trash
+003882.cpp F actual_labels array_of_labels ch ch1 ch2 ch3 filled1 filled2 filled3 labels_id result s s1 s2 s3 trash
 003883.cpp
 003884.cpp
 003885.cpp
 003887.cpp punct query root
 003888.cpp
-003889.cpp F actual_labels array_of_labels ch1 ch2 ch3 ch filled1 filled2 filled3 labels_id result s1 s2 s3 s trash
-003890.cpp F actual_labels array_of_labels ch1 ch2 ch3 ch filled1 filled2 filled3 labels_id result s1 s2 s3 s trash
-003891.cpp F actual_labels array_of_labels ch1 ch2 ch3 ch filled1 filled2 filled3 labels_id result s1 s2 s3 s trash
+003889.cpp F actual_labels array_of_labels ch ch1 ch2 ch3 filled1 filled2 filled3 labels_id result s s1 s2 s3 trash
+003890.cpp F actual_labels array_of_labels ch ch1 ch2 ch3 filled1 filled2 filled3 labels_id result s s1 s2 s3 trash
+003891.cpp F actual_labels array_of_labels ch ch1 ch2 ch3 filled1 filled2 filled3 labels_id result s s1 s2 s3 trash
 003893.cpp nodes
-003894.cpp F actual_labels array_of_labels ch1 ch2 ch3 ch filled1 filled2 filled3 labels_id result s1 s2 s3 s trash
+003894.cpp F actual_labels array_of_labels ch ch1 ch2 ch3 filled1 filled2 filled3 labels_id result s s1 s2 s3 trash
 003895.cpp nodes
-003896.cpp F actual_labels array_of_labels ch1 ch2 ch3 ch filled1 filled2 filled3 labels_id result s1 s2 s3 s trash
-003897.cpp F actual_labels array_of_labels ch1 ch2 ch3 ch filled1 filled2 filled3 labels_id result s1 s2 s3 s trash
+003896.cpp F actual_labels array_of_labels ch ch1 ch2 ch3 filled1 filled2 filled3 labels_id result s s1 s2 s3 trash
+003897.cpp F actual_labels array_of_labels ch ch1 ch2 ch3 filled1 filled2 filled3 labels_id result s s1 s2 s3 trash
 003899.cpp
 003900.cpp
 003902.cpp
@@ -2677,7 +2677,7 @@
 004194.cpp depth graph numNodes parent used
 004198.cpp
 004199.cpp depth graph numNodes parent used
-004205.cpp blobSize chunks numChunks spread
+004205.cpp blobSize chunks numChunks spread speed inertia
 004206.cpp
 004210.cpp
 004211.cpp
@@ -2688,7 +2688,7 @@
 004224.cpp
 004226.cpp
 004233.cpp Choice Devider NewWord Slovo dev node root
-004234.cpp actual_labels array_of_labels dictionary filled1 filled2 filled3 labels_id res s1 s2 s3 s templates_weight trash
+004234.cpp actual_labels array_of_labels dictionary filled1 filled2 filled3 labels_id res s s1 s2 s3 templates_weight trash ans
 004236.cpp
 004240.cpp
 004241.cpp
@@ -2708,35 +2708,35 @@
 004256.cpp blobSize chunks numChunks spread
 004257.cpp blobSize chunks numChunks spread
 004258.cpp blobSize chunks numChunks spread
-004261.cpp actual_labels array_of_labels dictionary filled1 filled2 filled3 labels_id res s1 s2 s3 s templates_weight trash
+004261.cpp actual_labels array_of_labels dictionary filled1 filled2 filled3 labels_id res s s1 s2 s3 templates_weight trash
 004263.cpp blobSize chunks numChunks spread
 004264.cpp Choice Devider NewWord Slovo crnt dev node root
 004265.cpp Choice Devider NewWord Slovo crnt dev node root
 004266.cpp Choice Devider NewWord Slovo crnt dev node root
 004267.cpp Choice Devider NewWord Slovo WordsCount crnt dev node root
 004268.cpp Choice Devider NewWord Slovo WordsCount crnt dev node root
-004269.cpp actual_labels array_of_labels dictionary filled1 filled2 filled3 labels_id res s1 s2 s3 s templates_weight trash
+004269.cpp actual_labels array_of_labels dictionary filled1 filled2 filled3 labels_id res s s1 s2 s3 templates_weight trash
 004272.cpp
 004273.cpp
 004274.cpp
 004275.cpp
-004276.cpp actual_labels array_of_labels dictionary filled1 filled2 filled3 labels_id res s1 s2 s3 s templates_weight trash
-004277.cpp actual_labels array_of_labels dictionary filled1 filled2 filled3 labels_id res s1 s2 s3 s templates_weight trash
-004278.cpp actual_labels array_of_labels dictionary filled1 filled2 filled3 labels_id res s1 s2 s3 s templates_weight trash
+004276.cpp actual_labels array_of_labels dictionary filled1 filled2 filled3 labels_id res s s1 s2 s3 templates_weight trash
+004277.cpp actual_labels array_of_labels dictionary filled1 filled2 filled3 labels_id res s s1 s2 s3 templates_weight trash
+004278.cpp actual_labels array_of_labels dictionary filled1 filled2 filled3 labels_id res s s1 s2 s3 templates_weight trash
 004280.cpp ancestor dsu graph query root u
 004284.cpp
 004288.cpp ancestor current_ancestor dist dsu edges_dist from graph num_of_nodes num_of_pairs q to used
 004289.cpp
 004292.cpp
 004293.cpp
-004294.cpp
-004295.cpp
+004294.cpp F
+004295.cpp F
 004299.cpp
-004300.cpp
-004301.cpp
-004302.cpp
+004300.cpp F
+004301.cpp F
+004302.cpp F
 004303.cpp
-004304.cpp
+004304.cpp F
 004305.cpp
 004306.cpp
 004307.cpp
@@ -2955,14 +2955,14 @@
 004558.cpp order t tCount tCountPrev
 004565.cpp order t tCount tCountPrev
 004566.cpp order t tCount tCountPrev
-004567.cpp BitsLen Buffer2 Buffer Code FigureHeight FigureImg FigureSize FigureWidth FontsFigures Height Image Size Width fin fout
+004567.cpp BitsLen Buffer Buffer2 Code FigureHeight FigureImg FigureSize FigureWidth FontsFigures Height Image Size Width fin fout
 004568.cpp
 004569.cpp
 004571.cpp
 004572.cpp
 004573.cpp
-004575.cpp BitsLen Buffer2 Buffer Code FigureHeight FigureImg FigureSize FigureWidth FontsFigures Height Image Size Width fin fout
-004576.cpp BitsLen Buffer2 Buffer Code FigureHeight FigureImg FigureSize FigureWidth FontsFigures Height Image Size Width fin fout
+004575.cpp BitsLen Buffer Buffer2 Code FigureHeight FigureImg FigureSize FigureWidth FontsFigures Height Image Size Width fin fout
+004576.cpp BitsLen Buffer Buffer2 Code FigureHeight FigureImg FigureSize FigureWidth FontsFigures Height Image Size Width fin fout
 004577.cpp order t tCount tCountPrev
 004578.cpp
 004580.cpp
@@ -3046,12 +3046,12 @@
 004690.cpp Nodes depth depth_bin graph parent used way way_bin
 004691.cpp
 004692.cpp
-004698.cpp
+004698.cpp iAdditionalFrequetly
 004699.cpp First High N Order QN graph used
-004700.cpp
-004701.cpp
-004702.cpp
-004703.cpp iCurrentFreq
+004700.cpp iAdditionalFrequetly
+004701.cpp iAdditionalFrequetly
+004702.cpp iAdditionalFrequetly
+004703.cpp iAdditionalFrequetly iCurrentFreq
 004719.cpp
 004720.cpp
 004722.cpp
@@ -3241,8 +3241,8 @@
 005035.cpp
 005036.cpp N buttons interp message words
 005037.cpp N buttons interp message words
-005038.cpp fin fout horiz_codes in ledge_codes pallete redge_codes rpallete vert_codes
-005039.cpp fin fout horiz_codes in ledge_codes pallete redge_codes rpallete vert_codes
+005038.cpp empty ch_empty fin fout horiz_codes in ledge_codes pallete redge_codes rpallete vert_codes
+005039.cpp empty ch_empty fin fout horiz_codes in ledge_codes pallete redge_codes rpallete vert_codes
 005049.cpp
 005050.cpp
 005051.cpp
@@ -3320,61 +3320,61 @@
 005257.cpp
 005259.cpp
 005260.cpp
-005264.cpp buf pic1 pic2 pic3 pic templatesL templatesR xmax xmin ymax ymin
-005265.cpp buf pic1 pic2 pic3 pic templatesL templatesR xmax xmin ymax ymin
+005264.cpp buf pic pic1 pic2 pic3 templatesL templatesR xmax xmin ymax ymin
+005265.cpp buf pic pic1 pic2 pic3 templatesL templatesR xmax xmin ymax ymin
 005266.cpp
-005267.cpp buf pic1 pic2 pic3 pic templatesL templatesR xmax xmin ymax ymin
-005270.cpp buf pic1 pic2 pic3 pic templatesL templatesR xmax xmin ymax ymin
-005271.cpp buf pic1 pic2 pic3 pic templatesL templatesR xmax xmin ymax ymin
-005272.cpp buf pic1 pic2 pic3 pic templatesL templatesR xmax xmin ymax ymin
-005273.cpp buf pic1 pic2 pic3 pic templatesL templatesR xmax xmin ymax ymin
-005274.cpp buf pic1 pic2 pic3 pic templatesL templatesR xmax xmin ymax ymin
-005283.cpp buf pic1 pic2 pic3 pic templatesL templatesR xmax xmin ymax ymin
-005284.cpp buf pic1 pic2 pic3 pic templatesL templatesR xmax xmin ymax ymin
-005285.cpp buf pic1 pic2 pic3 pic templatesL templatesR xmax xmin ymax ymin
-005286.cpp buf pic1 pic2 pic3 pic templatesL templatesR xmax xmin ymax ymin
-005287.cpp buf pic1 pic2 pic3 pic templatesL templatesR xmax xmin ymax ymin
-005288.cpp buf pic1 pic2 pic3 pic templatesL templatesR xmax xmin ymax ymin
-005289.cpp buf pic1 pic2 pic3 pic templatesL templatesR xmax xmin ymax ymin
-005290.cpp buf pic1 pic2 pic3 pic templatesL templatesR xmax xmin ymax ymin
-005291.cpp buf pic1 pic2 pic3 pic templatesL templatesR xmax xmin ymax ymin
-005292.cpp buf pic1 pic2 pic3 pic templatesL templatesR xmax xmin ymax ymin
-005293.cpp buf pic1 pic2 pic3 pic templatesL templatesR xmax xmin ymax ymin
-005294.cpp buf pic1 pic2 pic3 pic templatesL templatesR xmax xmin ymax ymin
-005295.cpp buf pic1 pic2 pic3 pic templatesL templatesR xmax xmin ymax ymin
-005296.cpp buf pic1 pic2 pic3 pic templatesL templatesR xmax xmin ymax ymin
-005297.cpp buf pic1 pic2 pic3 pic templatesL templatesR xmax xmin ymax ymin
-005298.cpp buf pic1 pic2 pic3 pic templatesL templatesR xmax xmin ymax ymin
-005299.cpp buf pic1 pic2 pic3 pic templatesL templatesR xmax xmin ymax ymin
-005300.cpp buf pic1 pic2 pic3 pic templatesL templatesR xmax xmin ymax ymin
-005301.cpp buf pic1 pic2 pic3 pic templatesL templatesR xmax xmin ymax ymin
-005305.cpp buf pic1 pic2 pic3 pic templatesL templatesR xmax xmin ymax ymin
-005307.cpp buf pic1 pic2 pic3 pic templatesL templatesR xmax xmin ymax ymin
+005267.cpp buf pic pic1 pic2 pic3 templatesL templatesR xmax xmin ymax ymin
+005270.cpp buf pic pic1 pic2 pic3 templatesL templatesR xmax xmin ymax ymin
+005271.cpp buf pic pic1 pic2 pic3 templatesL templatesR xmax xmin ymax ymin
+005272.cpp buf pic pic1 pic2 pic3 templatesL templatesR xmax xmin ymax ymin
+005273.cpp buf pic pic1 pic2 pic3 templatesL templatesR xmax xmin ymax ymin
+005274.cpp buf pic pic1 pic2 pic3 templatesL templatesR xmax xmin ymax ymin
+005283.cpp buf pic pic1 pic2 pic3 templatesL templatesR xmax xmin ymax ymin
+005284.cpp buf pic pic1 pic2 pic3 templatesL templatesR xmax xmin ymax ymin
+005285.cpp buf pic pic1 pic2 pic3 templatesL templatesR xmax xmin ymax ymin
+005286.cpp buf pic pic1 pic2 pic3 templatesL templatesR xmax xmin ymax ymin
+005287.cpp buf pic pic1 pic2 pic3 templatesL templatesR xmax xmin ymax ymin
+005288.cpp buf pic pic1 pic2 pic3 templatesL templatesR xmax xmin ymax ymin
+005289.cpp buf pic pic1 pic2 pic3 templatesL templatesR xmax xmin ymax ymin
+005290.cpp buf pic pic1 pic2 pic3 templatesL templatesR xmax xmin ymax ymin
+005291.cpp buf pic pic1 pic2 pic3 templatesL templatesR xmax xmin ymax ymin
+005292.cpp buf pic pic1 pic2 pic3 templatesL templatesR xmax xmin ymax ymin
+005293.cpp buf pic pic1 pic2 pic3 templatesL templatesR xmax xmin ymax ymin
+005294.cpp buf pic pic1 pic2 pic3 templatesL templatesR xmax xmin ymax ymin
+005295.cpp buf pic pic1 pic2 pic3 templatesL templatesR xmax xmin ymax ymin
+005296.cpp buf pic pic1 pic2 pic3 templatesL templatesR xmax xmin ymax ymin
+005297.cpp buf pic pic1 pic2 pic3 templatesL templatesR xmax xmin ymax ymin
+005298.cpp buf pic pic1 pic2 pic3 templatesL templatesR xmax xmin ymax ymin
+005299.cpp buf pic pic1 pic2 pic3 templatesL templatesR xmax xmin ymax ymin
+005300.cpp buf pic pic1 pic2 pic3 templatesL templatesR xmax xmin ymax ymin
+005301.cpp buf pic pic1 pic2 pic3 templatesL templatesR xmax xmin ymax ymin
+005305.cpp buf pic pic1 pic2 pic3 templatesL templatesR xmax xmin ymax ymin
+005307.cpp buf pic pic1 pic2 pic3 templatesL templatesR xmax xmin ymax ymin
 005311.cpp
 005313.cpp
 005314.cpp
 005338.cpp
 005348.cpp
-005359.cpp buf pic1 pic2 pic3 pic templatesL templatesR xmax xmin ymax ymin
-005360.cpp buf pic1 pic2 pic3 pic templatesL templatesR xmax xmin ymax ymin
-005361.cpp buf pic1 pic2 pic3 pic templatesL templatesR xmax xmin ymax ymin
-005362.cpp buf pic1 pic2 pic3 pic templatesL templatesR xmax xmin ymax ymin
+005359.cpp buf pic pic1 pic2 pic3 templatesL templatesR xmax xmin ymax ymin
+005360.cpp buf pic pic1 pic2 pic3 templatesL templatesR xmax xmin ymax ymin
+005361.cpp buf pic pic1 pic2 pic3 templatesL templatesR xmax xmin ymax ymin
+005362.cpp buf pic pic1 pic2 pic3 templatesL templatesR xmax xmin ymax ymin
 005381.cpp
-005382.cpp buf pic1 pic2 pic3 pic templatesL templatesR xmax xmin ymax ymin
-005383.cpp buf pic1 pic2 pic3 pic templatesL templatesR xmax xmin ymax ymin
-005384.cpp buf pic1 pic2 pic3 pic templatesL templatesR xmax xmin ymax ymin
-005385.cpp buf pic1 pic2 pic3 pic templatesL templatesR xmax xmin ymax ymin
-005386.cpp buf pic1 pic2 pic3 pic templatesL templatesR xmax xmin ymax ymin
-005387.cpp buf pic1 pic2 pic3 pic templatesL templatesR xmax xmin ymax ymin
-005388.cpp buf pic1 pic2 pic3 pic templatesL templatesR xmax xmin ymax ymin
-005389.cpp buf pic1 pic2 pic3 pic templatesL templatesR xmax xmin ymax ymin
-005390.cpp buf pic1 pic2 pic3 pic templatesL templatesR xmax xmin ymax ymin
-005391.cpp buf pic1 pic2 pic3 pic templatesL templatesR xmax xmin ymax ymin
-005392.cpp buf pic1 pic2 pic3 pic templatesL templatesR xmax xmin ymax ymin
-005393.cpp buf pic1 pic2 pic3 pic templatesL templatesR xmax xmin ymax ymin
-005394.cpp buf pic1 pic2 pic3 pic templatesL templatesR xmax xmin ymax ymin
-005395.cpp buf pic1 pic2 pic3 pic templatesL templatesR xmax xmin ymax ymin
-005396.cpp buf pic1 pic2 pic3 pic templatesL templatesR xmax xmin ymax ymin
+005382.cpp buf pic pic1 pic2 pic3 templatesL templatesR xmax xmin ymax ymin
+005383.cpp buf pic pic1 pic2 pic3 templatesL templatesR xmax xmin ymax ymin
+005384.cpp buf pic pic1 pic2 pic3 templatesL templatesR xmax xmin ymax ymin
+005385.cpp buf pic pic1 pic2 pic3 templatesL templatesR xmax xmin ymax ymin
+005386.cpp buf pic pic1 pic2 pic3 templatesL templatesR xmax xmin ymax ymin
+005387.cpp buf pic pic1 pic2 pic3 templatesL templatesR xmax xmin ymax ymin
+005388.cpp buf pic pic1 pic2 pic3 templatesL templatesR xmax xmin ymax ymin
+005389.cpp buf pic pic1 pic2 pic3 templatesL templatesR xmax xmin ymax ymin
+005390.cpp buf pic pic1 pic2 pic3 templatesL templatesR xmax xmin ymax ymin
+005391.cpp buf pic pic1 pic2 pic3 templatesL templatesR xmax xmin ymax ymin
+005392.cpp buf pic pic1 pic2 pic3 templatesL templatesR xmax xmin ymax ymin
+005393.cpp buf pic pic1 pic2 pic3 templatesL templatesR xmax xmin ymax ymin
+005394.cpp buf pic pic1 pic2 pic3 templatesL templatesR xmax xmin ymax ymin
+005395.cpp buf pic pic1 pic2 pic3 templatesL templatesR xmax xmin ymax ymin
+005396.cpp buf pic pic1 pic2 pic3 templatesL templatesR xmax xmin ymax ymin
 005397.cpp
 005398.cpp
 005399.cpp
@@ -4100,21 +4100,21 @@
 006779.cpp
 006780.cpp
 006781.cpp
-006782.cpp num02 num0 num12 num1 num22 num2 num3 num42 num43 num44 num4 num52 num53 num54 num55 num5 num62 num63 num64 num6 num7 num82 num83 num84 num85 num8 num92 num93 num94 num9 num_1
-006783.cpp num02 num03 num0 num12 num1 num22 num2 num3 num42 num43 num44 num4 num52 num53 num54 num55 num5 num62 num63 num64 num6 num7 num82 num83 num84 num85 num8 num92 num93 num94 num9 num_1
-006784.cpp num02 num03 num0 num12 num1 num22 num2 num3 num42 num43 num44 num4 num52 num53 num54 num55 num5 num62 num63 num64 num6 num7 num82 num83 num84 num85 num8 num92 num93 num94 num9 num_1
-006785.cpp num02 num03 num04 num0 num12 num1 num22 num2 num3 num42 num43 num44 num4 num52 num53 num54 num55 num5 num62 num63 num64 num6 num7 num82 num83 num84 num85 num86 num8 num92 num93 num94 num9 num_1
-006786.cpp num02 num03 num04 num0 num12 num1 num22 num2 num3 num42 num43 num44 num4 num52 num53 num54 num55 num5 num62 num63 num64 num6 num7 num82 num83 num84 num85 num86 num8 num92 num93 num94 num9 num_1
-006787.cpp num02 num03 num04 num0 num12 num1 num22 num2 num3 num42 num43 num44 num4 num52 num53 num54 num55 num5 num62 num63 num64 num6 num72 num7 num82 num83 num84 num85 num86 num8 num92 num93 num94 num9 num_1
-006788.cpp num02 num03 num04 num0 num12 num1 num22 num2 num3 num42 num43 num44 num4 num52 num53 num54 num55 num5 num62 num63 num64 num6 num72 num7 num82 num83 num84 num85 num86 num8 num92 num93 num94 num9 num_1
-006789.cpp num02 num03 num04 num0 num12 num1 num22 num23 num2 num32 num3 num42 num43 num44 num45 num4 num52 num53 num54 num55 num5 num62 num63 num64 num6 num72 num7 num82 num83 num84 num85 num86 num8 num92 num93 num94 num9 num_1
+006782.cpp num0 num02 num1 num12 num2 num22 num3 num4 num42 num43 num44 num5 num52 num53 num54 num55 num6 num62 num63 num64 num7 num8 num82 num83 num84 num85 num9 num92 num93 num94 num_1
+006783.cpp num0 num02 num03 num1 num12 num2 num22 num3 num4 num42 num43 num44 num5 num52 num53 num54 num55 num6 num62 num63 num64 num7 num8 num82 num83 num84 num85 num9 num92 num93 num94 num_1
+006784.cpp num0 num02 num03 num1 num12 num2 num22 num3 num4 num42 num43 num44 num5 num52 num53 num54 num55 num6 num62 num63 num64 num7 num8 num82 num83 num84 num85 num9 num92 num93 num94 num_1
+006785.cpp num0 num02 num03 num04 num1 num12 num2 num22 num3 num4 num42 num43 num44 num5 num52 num53 num54 num55 num6 num62 num63 num64 num7 num8 num82 num83 num84 num85 num86 num9 num92 num93 num94 num_1
+006786.cpp num0 num02 num03 num04 num1 num12 num2 num22 num3 num4 num42 num43 num44 num5 num52 num53 num54 num55 num6 num62 num63 num64 num7 num8 num82 num83 num84 num85 num86 num9 num92 num93 num94 num_1
+006787.cpp num0 num02 num03 num04 num1 num12 num2 num22 num3 num4 num42 num43 num44 num5 num52 num53 num54 num55 num6 num62 num63 num64 num7 num72 num8 num82 num83 num84 num85 num86 num9 num92 num93 num94 num_1
+006788.cpp num0 num02 num03 num04 num1 num12 num2 num22 num3 num4 num42 num43 num44 num5 num52 num53 num54 num55 num6 num62 num63 num64 num7 num72 num8 num82 num83 num84 num85 num86 num9 num92 num93 num94 num_1
+006789.cpp num0 num02 num03 num04 num1 num12 num2 num22 num23 num3 num32 num4 num42 num43 num44 num45 num5 num52 num53 num54 num55 num6 num62 num63 num64 num7 num72 num8 num82 num83 num84 num85 num86 num9 num92 num93 num94 num_1
 006790.cpp
-006791.cpp num02 num03 num04 num0 num12 num13 num1 num22 num23 num2 num32 num3 num42 num43 num44 num45 num4 num52 num53 num54 num55 num5 num62 num63 num64 num6 num72 num7 num82 num83 num84 num85 num86 num8 num92 num93 num94 num9 num_1
-006792.cpp num02 num03 num04 num0 num12 num13 num1 num22 num23 num2 num32 num3 num42 num43 num44 num45 num4 num52 num53 num54 num55 num5 num62 num63 num64 num6 num72 num7 num82 num83 num84 num85 num86 num8 num92 num93 num94 num9 num_1
-006793.cpp num02 num03 num04 num0 num12 num13 num1 num22 num23 num2 num32 num3 num42 num43 num44 num45 num4 num52 num53 num54 num55 num5 num62 num63 num64 num6 num72 num7 num82 num83 num84 num85 num86 num8 num92 num93 num94 num9 num_1
+006791.cpp num0 num02 num03 num04 num1 num12 num13 num2 num22 num23 num3 num32 num4 num42 num43 num44 num45 num5 num52 num53 num54 num55 num6 num62 num63 num64 num7 num72 num8 num82 num83 num84 num85 num86 num9 num92 num93 num94 num_1
+006792.cpp num0 num02 num03 num04 num1 num12 num13 num2 num22 num23 num3 num32 num4 num42 num43 num44 num45 num5 num52 num53 num54 num55 num6 num62 num63 num64 num7 num72 num8 num82 num83 num84 num85 num86 num9 num92 num93 num94 num_1
+006793.cpp num0 num02 num03 num04 num1 num12 num13 num2 num22 num23 num3 num32 num4 num42 num43 num44 num45 num5 num52 num53 num54 num55 num6 num62 num63 num64 num7 num72 num8 num82 num83 num84 num85 num86 num9 num92 num93 num94 num_1
 006794.cpp
 006795.cpp
-006796.cpp num02 num03 num04 num0 num12 num13 num1 num22 num23 num2 num32 num3 num42 num43 num44 num45 num46 num4 num52 num53 num54 num55 num5 num62 num63 num64 num6 num72 num7 num82 num83 num84 num85 num86 num8 num92 num93 num94 num9 num_1
+006796.cpp num0 num02 num03 num04 num1 num12 num13 num2 num22 num23 num3 num32 num4 num42 num43 num44 num45 num46 num5 num52 num53 num54 num55 num6 num62 num63 num64 num7 num72 num8 num82 num83 num84 num85 num86 num9 num92 num93 num94 num_1
 006797.cpp
 006798.cpp
 006802.cpp
@@ -4137,9 +4137,9 @@
 006839.cpp
 006840.cpp
 006841.cpp
-006842.cpp num02 num03 num04 num05 num06 num07 num0 num12 num13 num14 num15 num16 num1 num22 num23 num2 num32 num33 num34 num35 num36 num37 num38 num3 num42 num43 num44 num45 num46 num4 num52 num53 num54 num55 num56 num57 num5 num62 num63 num64 num65 num66 num67 num68 num6 num72 num73 num74 num75 num7 num82 num83 num84 num85 num86 num87 num88 num89 num8 num8_10 num92 num93 num94 num95 num96 num97 num9 num_1
-006843.cpp num02 num03 num04 num05 num06 num07 num0 num12 num13 num14 num15 num16 num1 num22 num23 num2 num32 num33 num34 num35 num36 num37 num38 num3 num42 num43 num44 num45 num46 num4 num52 num53 num54 num55 num56 num57 num5 num62 num63 num64 num65 num66 num67 num68 num6 num72 num73 num74 num75 num7 num82 num83 num84 num85 num86 num87 num88 num89 num8 num8_10 num92 num93 num94 num95 num96 num97 num9 num_1
-006844.cpp num02 num03 num04 num05 num06 num07 num0 num12 num13 num14 num15 num16 num1 num22 num23 num24 num2 num32 num33 num34 num35 num36 num37 num38 num3 num42 num43 num44 num45 num46 num4 num52 num53 num54 num55 num56 num57 num5 num62 num63 num64 num65 num66 num67 num68 num6 num72 num73 num74 num75 num7 num82 num83 num84 num85 num86 num87 num88 num89 num8 num8_10 num92 num93 num94 num95 num96 num97 num9 num_1
+006842.cpp num0 num02 num03 num04 num05 num06 num07 num1 num12 num13 num14 num15 num16 num2 num22 num23 num3 num32 num33 num34 num35 num36 num37 num38 num4 num42 num43 num44 num45 num46 num5 num52 num53 num54 num55 num56 num57 num6 num62 num63 num64 num65 num66 num67 num68 num7 num72 num73 num74 num75 num8 num82 num83 num84 num85 num86 num87 num88 num89 num8_10 num9 num92 num93 num94 num95 num96 num97 num_1
+006843.cpp num0 num02 num03 num04 num05 num06 num07 num1 num12 num13 num14 num15 num16 num2 num22 num23 num3 num32 num33 num34 num35 num36 num37 num38 num4 num42 num43 num44 num45 num46 num5 num52 num53 num54 num55 num56 num57 num6 num62 num63 num64 num65 num66 num67 num68 num7 num72 num73 num74 num75 num8 num82 num83 num84 num85 num86 num87 num88 num89 num8_10 num9 num92 num93 num94 num95 num96 num97 num_1
+006844.cpp num0 num02 num03 num04 num05 num06 num07 num1 num12 num13 num14 num15 num16 num2 num22 num23 num24 num3 num32 num33 num34 num35 num36 num37 num38 num4 num42 num43 num44 num45 num46 num5 num52 num53 num54 num55 num56 num57 num6 num62 num63 num64 num65 num66 num67 num68 num7 num72 num73 num74 num75 num8 num82 num83 num84 num85 num86 num87 num88 num89 num8_10 num9 num92 num93 num94 num95 num96 num97 num_1
 006845.cpp
 006846.cpp
 006847.cpp
@@ -4151,23 +4151,23 @@
 006866.cpp dict
 006868.cpp dict
 006870.cpp dict
-006871.cpp num02 num03 num04 num05 num06 num07 num0 num12 num13 num14 num15 num16 num17 num1 num22 num23 num24 num25 num2 num32 num33 num34 num35 num36 num37 num38 num39 num3 num42 num43 num44 num45 num46 num4 num52 num53 num54 num55 num56 num57 num5 num62 num63 num64 num65 num66 num67 num68 num69 num6 num72 num73 num74 num75 num7 num82 num83 num84 num85 num86 num87 num88 num89 num8 num8_10 num92 num93 num94 num95 num96 num97 num9 num_1
-006872.cpp num02 num03 num04 num05 num06 num07 num0 num12 num13 num14 num15 num16 num17 num1 num22 num23 num24 num25 num2 num32 num33 num34 num35 num36 num37 num38 num39 num3 num42 num43 num44 num45 num46 num4 num52 num53 num54 num55 num56 num57 num5 num62 num63 num64 num65 num66 num67 num68 num69 num6 num72 num73 num74 num75 num7 num82 num83 num84 num85 num86 num87 num88 num89 num8 num8_10 num92 num93 num94 num95 num96 num97 num9 num_1
+006871.cpp num0 num02 num03 num04 num05 num06 num07 num1 num12 num13 num14 num15 num16 num17 num2 num22 num23 num24 num25 num3 num32 num33 num34 num35 num36 num37 num38 num39 num4 num42 num43 num44 num45 num46 num5 num52 num53 num54 num55 num56 num57 num6 num62 num63 num64 num65 num66 num67 num68 num69 num7 num72 num73 num74 num75 num8 num82 num83 num84 num85 num86 num87 num88 num89 num8_10 num9 num92 num93 num94 num95 num96 num97 num_1
+006872.cpp num0 num02 num03 num04 num05 num06 num07 num1 num12 num13 num14 num15 num16 num17 num2 num22 num23 num24 num25 num3 num32 num33 num34 num35 num36 num37 num38 num39 num4 num42 num43 num44 num45 num46 num5 num52 num53 num54 num55 num56 num57 num6 num62 num63 num64 num65 num66 num67 num68 num69 num7 num72 num73 num74 num75 num8 num82 num83 num84 num85 num86 num87 num88 num89 num8_10 num9 num92 num93 num94 num95 num96 num97 num_1
 006873.cpp dict
-006874.cpp num02 num03 num04 num05 num06 num07 num08 num0 num12 num13 num14 num15 num16 num17 num1 num22 num23 num24 num25 num2 num32 num33 num34 num35 num36 num37 num38 num39 num3 num42 num43 num44 num45 num46 num4 num52 num53 num54 num55 num56 num57 num5 num62 num63 num64 num65 num66 num67 num68 num69 num6 num72 num73 num74 num75 num7 num82 num83 num84 num85 num86 num87 num88 num89 num8 num8_10 num92 num93 num94 num95 num96 num97 num9 num_1
-006875.cpp num02 num03 num04 num05 num06 num07 num08 num0 num12 num13 num14 num15 num16 num17 num1 num22 num23 num24 num25 num2 num32 num33 num34 num35 num36 num37 num38 num39 num3 num42 num43 num44 num45 num46 num4 num52 num53 num54 num55 num56 num57 num5 num62 num63 num64 num65 num66 num67 num68 num69 num6 num72 num73 num74 num75 num7 num82 num83 num84 num85 num86 num87 num88 num89 num8 num8_10 num92 num93 num94 num95 num96 num97 num9 num_1
-006877.cpp num02 num03 num04 num05 num06 num07 num08 num0 num12 num13 num14 num15 num16 num17 num1 num22 num23 num24 num25 num2 num32 num33 num34 num35 num36 num37 num38 num39 num3 num42 num43 num44 num45 num46 num4 num52 num53 num54 num55 num56 num57 num5 num62 num63 num64 num65 num66 num67 num68 num69 num6 num72 num73 num74 num75 num7 num82 num83 num84 num85 num86 num87 num88 num89 num8 num8_10 num92 num93 num94 num95 num96 num97 num9 num_1
+006874.cpp num0 num02 num03 num04 num05 num06 num07 num08 num1 num12 num13 num14 num15 num16 num17 num2 num22 num23 num24 num25 num3 num32 num33 num34 num35 num36 num37 num38 num39 num4 num42 num43 num44 num45 num46 num5 num52 num53 num54 num55 num56 num57 num6 num62 num63 num64 num65 num66 num67 num68 num69 num7 num72 num73 num74 num75 num8 num82 num83 num84 num85 num86 num87 num88 num89 num8_10 num9 num92 num93 num94 num95 num96 num97 num_1
+006875.cpp num0 num02 num03 num04 num05 num06 num07 num08 num1 num12 num13 num14 num15 num16 num17 num2 num22 num23 num24 num25 num3 num32 num33 num34 num35 num36 num37 num38 num39 num4 num42 num43 num44 num45 num46 num5 num52 num53 num54 num55 num56 num57 num6 num62 num63 num64 num65 num66 num67 num68 num69 num7 num72 num73 num74 num75 num8 num82 num83 num84 num85 num86 num87 num88 num89 num8_10 num9 num92 num93 num94 num95 num96 num97 num_1
+006877.cpp num0 num02 num03 num04 num05 num06 num07 num08 num1 num12 num13 num14 num15 num16 num17 num2 num22 num23 num24 num25 num3 num32 num33 num34 num35 num36 num37 num38 num39 num4 num42 num43 num44 num45 num46 num5 num52 num53 num54 num55 num56 num57 num6 num62 num63 num64 num65 num66 num67 num68 num69 num7 num72 num73 num74 num75 num8 num82 num83 num84 num85 num86 num87 num88 num89 num8_10 num9 num92 num93 num94 num95 num96 num97 num_1
 006878.cpp
 006879.cpp
-006880.cpp num02 num03 num04 num05 num06 num07 num08 num0 num12 num13 num14 num15 num16 num17 num18 num1 num22 num23 num24 num25 num2 num32 num33 num34 num35 num36 num37 num38 num39 num3 num42 num43 num44 num45 num46 num4 num52 num53 num54 num55 num56 num57 num5 num62 num63 num64 num65 num66 num67 num68 num69 num6 num72 num73 num74 num75 num7 num82 num83 num84 num85 num86 num87 num88 num89 num8 num8_10 num92 num93 num94 num95 num96 num97 num9 num_1
+006880.cpp num0 num02 num03 num04 num05 num06 num07 num08 num1 num12 num13 num14 num15 num16 num17 num18 num2 num22 num23 num24 num25 num3 num32 num33 num34 num35 num36 num37 num38 num39 num4 num42 num43 num44 num45 num46 num5 num52 num53 num54 num55 num56 num57 num6 num62 num63 num64 num65 num66 num67 num68 num69 num7 num72 num73 num74 num75 num8 num82 num83 num84 num85 num86 num87 num88 num89 num8_10 num9 num92 num93 num94 num95 num96 num97 num_1
 006882.cpp
 006886.cpp
 006887.cpp
 006888.cpp
 006889.cpp
 006891.cpp
-006892.cpp num02 num03 num04 num05 num06 num07 num08 num0 num12 num13 num14 num15 num16 num17 num18 num1 num22 num23 num24 num25 num2 num32 num33 num34 num35 num36 num37 num38 num39 num3 num42 num43 num44 num45 num46 num4 num52 num53 num54 num55 num56 num57 num5 num62 num63 num64 num65 num66 num67 num68 num69 num6 num6_10 num72 num73 num74 num75 num7 num82 num83 num84 num85 num86 num87 num88 num89 num8 num8_10 num8_11 num92 num93 num94 num95 num96 num97 num9 num_1
-006895.cpp num02 num03 num04 num05 num06 num07 num08 num0 num12 num13 num14 num15 num16 num17 num18 num1 num22 num23 num24 num25 num2 num32 num33 num34 num35 num36 num37 num38 num39 num3 num42 num43 num44 num45 num46 num47 num4 num52 num53 num54 num55 num56 num57 num5 num62 num63 num64 num65 num66 num67 num68 num69 num6 num6_10 num72 num73 num74 num75 num7 num82 num83 num84 num85 num86 num87 num88 num89 num8 num8_10 num8_11 num92 num93 num94 num95 num96 num97 num9 num_1
+006892.cpp num0 num02 num03 num04 num05 num06 num07 num08 num1 num12 num13 num14 num15 num16 num17 num18 num2 num22 num23 num24 num25 num3 num32 num33 num34 num35 num36 num37 num38 num39 num4 num42 num43 num44 num45 num46 num5 num52 num53 num54 num55 num56 num57 num6 num62 num63 num64 num65 num66 num67 num68 num69 num6_10 num7 num72 num73 num74 num75 num8 num82 num83 num84 num85 num86 num87 num88 num89 num8_10 num8_11 num9 num92 num93 num94 num95 num96 num97 num_1
+006895.cpp num0 num02 num03 num04 num05 num06 num07 num08 num1 num12 num13 num14 num15 num16 num17 num18 num2 num22 num23 num24 num25 num3 num32 num33 num34 num35 num36 num37 num38 num39 num4 num42 num43 num44 num45 num46 num47 num5 num52 num53 num54 num55 num56 num57 num6 num62 num63 num64 num65 num66 num67 num68 num69 num6_10 num7 num72 num73 num74 num75 num8 num82 num83 num84 num85 num86 num87 num88 num89 num8_10 num8_11 num9 num92 num93 num94 num95 num96 num97 num_1
 006903.cpp
 006908.cpp
 006913.cpp
@@ -4255,22 +4255,22 @@
 007051.cpp
 007052.cpp
 007053.cpp N lcount
-007055.cpp weights_hidden_0 weights_hidden_1 weights_hidden_2 weights_hidden_3 weights_hidden_4 weights_hidden_5 weights_hidden_6 weights_hidden_7 weights_hidden_8 weights_hidden_9 weights_input_0 weights_input_10 weights_input_11 weights_input_12 weights_input_13 weights_input_14 weights_input_15 weights_input_1 weights_input_2 weights_input_3 weights_input_4 weights_input_5 weights_input_6 weights_input_7 weights_input_8 weights_input_9
-007056.cpp weights_hidden_0 weights_hidden_1 weights_hidden_2 weights_hidden_3 weights_hidden_4 weights_hidden_5 weights_hidden_6 weights_hidden_7 weights_hidden_8 weights_hidden_9 weights_input_0 weights_input_10 weights_input_11 weights_input_12 weights_input_13 weights_input_14 weights_input_15 weights_input_1 weights_input_2 weights_input_3 weights_input_4 weights_input_5 weights_input_6 weights_input_7 weights_input_8 weights_input_9
-007057.cpp weights_hidden_0 weights_hidden_1 weights_hidden_2 weights_hidden_3 weights_hidden_4 weights_hidden_5 weights_hidden_6 weights_hidden_7 weights_hidden_8 weights_hidden_9 weights_input_0 weights_input_10 weights_input_11 weights_input_12 weights_input_13 weights_input_14 weights_input_15 weights_input_1 weights_input_2 weights_input_3 weights_input_4 weights_input_5 weights_input_6 weights_input_7 weights_input_8 weights_input_9
-007058.cpp weights_hidden_0 weights_hidden_1 weights_hidden_2 weights_hidden_3 weights_hidden_4 weights_hidden_5 weights_hidden_6 weights_hidden_7 weights_hidden_8 weights_hidden_9 weights_input_0 weights_input_10 weights_input_11 weights_input_12 weights_input_13 weights_input_14 weights_input_15 weights_input_1 weights_input_2 weights_input_3 weights_input_4 weights_input_5 weights_input_6 weights_input_7 weights_input_8 weights_input_9
-007059.cpp weights_hidden_0 weights_hidden_1 weights_hidden_2 weights_hidden_3 weights_hidden_4 weights_hidden_5 weights_hidden_6 weights_hidden_7 weights_hidden_8 weights_hidden_9 weights_input_0 weights_input_10 weights_input_11 weights_input_12 weights_input_13 weights_input_14 weights_input_15 weights_input_1 weights_input_2 weights_input_3 weights_input_4 weights_input_5 weights_input_6 weights_input_7 weights_input_8 weights_input_9
+007055.cpp weights_hidden_0 weights_hidden_1 weights_hidden_2 weights_hidden_3 weights_hidden_4 weights_hidden_5 weights_hidden_6 weights_hidden_7 weights_hidden_8 weights_hidden_9 weights_input_0 weights_input_1 weights_input_10 weights_input_11 weights_input_12 weights_input_13 weights_input_14 weights_input_15 weights_input_2 weights_input_3 weights_input_4 weights_input_5 weights_input_6 weights_input_7 weights_input_8 weights_input_9
+007056.cpp weights_hidden_0 weights_hidden_1 weights_hidden_2 weights_hidden_3 weights_hidden_4 weights_hidden_5 weights_hidden_6 weights_hidden_7 weights_hidden_8 weights_hidden_9 weights_input_0 weights_input_1 weights_input_10 weights_input_11 weights_input_12 weights_input_13 weights_input_14 weights_input_15 weights_input_2 weights_input_3 weights_input_4 weights_input_5 weights_input_6 weights_input_7 weights_input_8 weights_input_9
+007057.cpp weights_hidden_0 weights_hidden_1 weights_hidden_2 weights_hidden_3 weights_hidden_4 weights_hidden_5 weights_hidden_6 weights_hidden_7 weights_hidden_8 weights_hidden_9 weights_input_0 weights_input_1 weights_input_10 weights_input_11 weights_input_12 weights_input_13 weights_input_14 weights_input_15 weights_input_2 weights_input_3 weights_input_4 weights_input_5 weights_input_6 weights_input_7 weights_input_8 weights_input_9
+007058.cpp weights_hidden_0 weights_hidden_1 weights_hidden_2 weights_hidden_3 weights_hidden_4 weights_hidden_5 weights_hidden_6 weights_hidden_7 weights_hidden_8 weights_hidden_9 weights_input_0 weights_input_1 weights_input_10 weights_input_11 weights_input_12 weights_input_13 weights_input_14 weights_input_15 weights_input_2 weights_input_3 weights_input_4 weights_input_5 weights_input_6 weights_input_7 weights_input_8 weights_input_9
+007059.cpp weights_hidden_0 weights_hidden_1 weights_hidden_2 weights_hidden_3 weights_hidden_4 weights_hidden_5 weights_hidden_6 weights_hidden_7 weights_hidden_8 weights_hidden_9 weights_input_0 weights_input_1 weights_input_10 weights_input_11 weights_input_12 weights_input_13 weights_input_14 weights_input_15 weights_input_2 weights_input_3 weights_input_4 weights_input_5 weights_input_6 weights_input_7 weights_input_8 weights_input_9
 007060.cpp
-007061.cpp weights_hidden_0 weights_hidden_1 weights_hidden_2 weights_hidden_3 weights_hidden_4 weights_hidden_5 weights_hidden_6 weights_hidden_7 weights_hidden_8 weights_hidden_9 weights_input_0 weights_input_10 weights_input_11 weights_input_12 weights_input_13 weights_input_14 weights_input_15 weights_input_1 weights_input_2 weights_input_3 weights_input_4 weights_input_5 weights_input_6 weights_input_7 weights_input_8 weights_input_9
-007062.cpp weights_hidden_0 weights_hidden_1 weights_hidden_2 weights_hidden_3 weights_hidden_4 weights_hidden_5 weights_hidden_6 weights_hidden_7 weights_hidden_8 weights_hidden_9 weights_input_0 weights_input_10 weights_input_11 weights_input_12 weights_input_13 weights_input_14 weights_input_15 weights_input_1 weights_input_2 weights_input_3 weights_input_4 weights_input_5 weights_input_6 weights_input_7 weights_input_8 weights_input_9
-007063.cpp weights_hidden_0 weights_hidden_1 weights_hidden_2 weights_hidden_3 weights_hidden_4 weights_hidden_5 weights_hidden_6 weights_hidden_7 weights_hidden_8 weights_hidden_9 weights_input_0 weights_input_10 weights_input_11 weights_input_12 weights_input_13 weights_input_14 weights_input_15 weights_input_1 weights_input_2 weights_input_3 weights_input_4 weights_input_5 weights_input_6 weights_input_7 weights_input_8 weights_input_9
-007064.cpp weights_hidden_0 weights_hidden_1 weights_hidden_2 weights_hidden_3 weights_hidden_4 weights_hidden_5 weights_hidden_6 weights_hidden_7 weights_hidden_8 weights_hidden_9 weights_input_0 weights_input_10 weights_input_11 weights_input_12 weights_input_13 weights_input_14 weights_input_15 weights_input_1 weights_input_2 weights_input_3 weights_input_4 weights_input_5 weights_input_6 weights_input_7 weights_input_8 weights_input_9
-007065.cpp weights_hidden_0 weights_hidden_1 weights_hidden_2 weights_hidden_3 weights_hidden_4 weights_hidden_5 weights_hidden_6 weights_hidden_7 weights_hidden_8 weights_hidden_9 weights_input_0 weights_input_10 weights_input_11 weights_input_12 weights_input_13 weights_input_14 weights_input_15 weights_input_1 weights_input_2 weights_input_3 weights_input_4 weights_input_5 weights_input_6 weights_input_7 weights_input_8 weights_input_9
-007066.cpp weights_hidden_0 weights_hidden_1 weights_hidden_2 weights_hidden_3 weights_hidden_4 weights_hidden_5 weights_hidden_6 weights_hidden_7 weights_hidden_8 weights_hidden_9 weights_input_0 weights_input_10 weights_input_11 weights_input_12 weights_input_13 weights_input_14 weights_input_15 weights_input_1 weights_input_2 weights_input_3 weights_input_4 weights_input_5 weights_input_6 weights_input_7 weights_input_8 weights_input_9
-007067.cpp weights_hidden_0 weights_hidden_1 weights_hidden_2 weights_hidden_3 weights_hidden_4 weights_hidden_5 weights_hidden_6 weights_hidden_7 weights_hidden_8 weights_hidden_9 weights_input_0 weights_input_10 weights_input_11 weights_input_12 weights_input_13 weights_input_14 weights_input_15 weights_input_1 weights_input_2 weights_input_3 weights_input_4 weights_input_5 weights_input_6 weights_input_7 weights_input_8 weights_input_9
-007068.cpp weights_hidden_0 weights_hidden_1 weights_hidden_2 weights_hidden_3 weights_hidden_4 weights_hidden_5 weights_hidden_6 weights_hidden_7 weights_hidden_8 weights_hidden_9 weights_input_0 weights_input_10 weights_input_11 weights_input_12 weights_input_13 weights_input_14 weights_input_15 weights_input_1 weights_input_2 weights_input_3 weights_input_4 weights_input_5 weights_input_6 weights_input_7 weights_input_8 weights_input_9
-007069.cpp weights_hidden_0 weights_hidden_1 weights_hidden_2 weights_hidden_3 weights_hidden_4 weights_hidden_5 weights_hidden_6 weights_hidden_7 weights_hidden_8 weights_hidden_9 weights_input_0 weights_input_10 weights_input_11 weights_input_12 weights_input_13 weights_input_14 weights_input_15 weights_input_1 weights_input_2 weights_input_3 weights_input_4 weights_input_5 weights_input_6 weights_input_7 weights_input_8 weights_input_9
-007070.cpp weights_hidden_0 weights_hidden_1 weights_hidden_2 weights_hidden_3 weights_hidden_4 weights_hidden_5 weights_hidden_6 weights_hidden_7 weights_hidden_8 weights_hidden_9 weights_input_0 weights_input_10 weights_input_11 weights_input_12 weights_input_13 weights_input_14 weights_input_15 weights_input_1 weights_input_2 weights_input_3 weights_input_4 weights_input_5 weights_input_6 weights_input_7 weights_input_8 weights_input_9
+007061.cpp weights_hidden_0 weights_hidden_1 weights_hidden_2 weights_hidden_3 weights_hidden_4 weights_hidden_5 weights_hidden_6 weights_hidden_7 weights_hidden_8 weights_hidden_9 weights_input_0 weights_input_1 weights_input_10 weights_input_11 weights_input_12 weights_input_13 weights_input_14 weights_input_15 weights_input_2 weights_input_3 weights_input_4 weights_input_5 weights_input_6 weights_input_7 weights_input_8 weights_input_9
+007062.cpp weights_hidden_0 weights_hidden_1 weights_hidden_2 weights_hidden_3 weights_hidden_4 weights_hidden_5 weights_hidden_6 weights_hidden_7 weights_hidden_8 weights_hidden_9 weights_input_0 weights_input_1 weights_input_10 weights_input_11 weights_input_12 weights_input_13 weights_input_14 weights_input_15 weights_input_2 weights_input_3 weights_input_4 weights_input_5 weights_input_6 weights_input_7 weights_input_8 weights_input_9
+007063.cpp weights_hidden_0 weights_hidden_1 weights_hidden_2 weights_hidden_3 weights_hidden_4 weights_hidden_5 weights_hidden_6 weights_hidden_7 weights_hidden_8 weights_hidden_9 weights_input_0 weights_input_1 weights_input_10 weights_input_11 weights_input_12 weights_input_13 weights_input_14 weights_input_15 weights_input_2 weights_input_3 weights_input_4 weights_input_5 weights_input_6 weights_input_7 weights_input_8 weights_input_9
+007064.cpp weights_hidden_0 weights_hidden_1 weights_hidden_2 weights_hidden_3 weights_hidden_4 weights_hidden_5 weights_hidden_6 weights_hidden_7 weights_hidden_8 weights_hidden_9 weights_input_0 weights_input_1 weights_input_10 weights_input_11 weights_input_12 weights_input_13 weights_input_14 weights_input_15 weights_input_2 weights_input_3 weights_input_4 weights_input_5 weights_input_6 weights_input_7 weights_input_8 weights_input_9
+007065.cpp weights_hidden_0 weights_hidden_1 weights_hidden_2 weights_hidden_3 weights_hidden_4 weights_hidden_5 weights_hidden_6 weights_hidden_7 weights_hidden_8 weights_hidden_9 weights_input_0 weights_input_1 weights_input_10 weights_input_11 weights_input_12 weights_input_13 weights_input_14 weights_input_15 weights_input_2 weights_input_3 weights_input_4 weights_input_5 weights_input_6 weights_input_7 weights_input_8 weights_input_9
+007066.cpp weights_hidden_0 weights_hidden_1 weights_hidden_2 weights_hidden_3 weights_hidden_4 weights_hidden_5 weights_hidden_6 weights_hidden_7 weights_hidden_8 weights_hidden_9 weights_input_0 weights_input_1 weights_input_10 weights_input_11 weights_input_12 weights_input_13 weights_input_14 weights_input_15 weights_input_2 weights_input_3 weights_input_4 weights_input_5 weights_input_6 weights_input_7 weights_input_8 weights_input_9
+007067.cpp weights_hidden_0 weights_hidden_1 weights_hidden_2 weights_hidden_3 weights_hidden_4 weights_hidden_5 weights_hidden_6 weights_hidden_7 weights_hidden_8 weights_hidden_9 weights_input_0 weights_input_1 weights_input_10 weights_input_11 weights_input_12 weights_input_13 weights_input_14 weights_input_15 weights_input_2 weights_input_3 weights_input_4 weights_input_5 weights_input_6 weights_input_7 weights_input_8 weights_input_9
+007068.cpp weights_hidden_0 weights_hidden_1 weights_hidden_2 weights_hidden_3 weights_hidden_4 weights_hidden_5 weights_hidden_6 weights_hidden_7 weights_hidden_8 weights_hidden_9 weights_input_0 weights_input_1 weights_input_10 weights_input_11 weights_input_12 weights_input_13 weights_input_14 weights_input_15 weights_input_2 weights_input_3 weights_input_4 weights_input_5 weights_input_6 weights_input_7 weights_input_8 weights_input_9
+007069.cpp weights_hidden_0 weights_hidden_1 weights_hidden_2 weights_hidden_3 weights_hidden_4 weights_hidden_5 weights_hidden_6 weights_hidden_7 weights_hidden_8 weights_hidden_9 weights_input_0 weights_input_1 weights_input_10 weights_input_11 weights_input_12 weights_input_13 weights_input_14 weights_input_15 weights_input_2 weights_input_3 weights_input_4 weights_input_5 weights_input_6 weights_input_7 weights_input_8 weights_input_9
+007070.cpp weights_hidden_0 weights_hidden_1 weights_hidden_2 weights_hidden_3 weights_hidden_4 weights_hidden_5 weights_hidden_6 weights_hidden_7 weights_hidden_8 weights_hidden_9 weights_input_0 weights_input_1 weights_input_10 weights_input_11 weights_input_12 weights_input_13 weights_input_14 weights_input_15 weights_input_2 weights_input_3 weights_input_4 weights_input_5 weights_input_6 weights_input_7 weights_input_8 weights_input_9
 007072.cpp
 007073.cpp ancestor answer_ro bound_ro finded_ro nolink parent query ro root stack tree
 007076.cpp
@@ -4335,10 +4335,10 @@
 007212.cpp tree
 007213.cpp tree
 007214.cpp tree
-007217.cpp c i ind j k l m n1 n2 n s sr str sv words2 words
-007218.cpp c i ind j k l m n1 n2 n s sr str sv words2 words
+007217.cpp c i ind j k l m n n1 n2 s sr str sv words words2
+007218.cpp c i ind j k l m n n1 n2 s sr str sv words words2
 007219.cpp tree
-007220.cpp c i ind j k l m n1 n2 n s sr str sv words2 words
+007220.cpp c i ind j k l m n n1 n2 s sr str sv words words2
 007221.cpp tree
 007222.cpp tree
 007223.cpp tree
@@ -4376,18 +4376,18 @@
 007267.cpp vwDict
 007269.cpp
 007271.cpp vwDict
-007272.cpp c i ind j k l m n1 n2 n s sr str sv words2 words
-007273.cpp c i ind j k l m n1 n2 n s sr str sv words2 words
+007272.cpp c i ind j k l m n n1 n2 s sr str sv words words2
+007273.cpp c i ind j k l m n n1 n2 s sr str sv words words2
 007274.cpp
 007280.cpp
 007281.cpp
 007282.cpp tree
 007284.cpp DP N visited
-007285.cpp c i ind j k l m n1 n2 n s sr str sv words2 words
+007285.cpp c i ind j k l m n n1 n2 s sr str sv words words2
 007286.cpp DP N visited
 007287.cpp
 007288.cpp tree
-007289.cpp c i ind j k l m n1 n2 n s sr str sv words2 words
+007289.cpp c i ind j k l m n n1 n2 s sr str sv words words2
 007290.cpp N lcount
 007294.cpp
 007295.cpp
@@ -4447,8 +4447,8 @@
 007367.cpp chisla
 007368.cpp
 007369.cpp
-007370.cpp c i ind j k l m n1 n2 n s sr str sv words2 words
-007371.cpp c i ind j k l m n1 n2 n s sr str sv words2 words
+007370.cpp c i ind j k l m n n1 n2 s sr str sv words words2
+007371.cpp c i ind j k l m n n1 n2 s sr str sv words words2
 007372.cpp
 007373.cpp
 007374.cpp
@@ -4507,9 +4507,9 @@
 007450.cpp N lcount
 007451.cpp
 007453.cpp PR
-007454.cpp
-007455.cpp
-007456.cpp
+007454.cpp AdjacencyMatrix NodeCount
+007455.cpp AdjacencyMatrix NodeCount
+007456.cpp AdjacencyMatrix NodeCount
 007457.cpp
 007458.cpp
 007459.cpp
@@ -4520,14 +4520,14 @@
 007464.cpp
 007465.cpp
 007466.cpp
-007467.cpp Map
+007467.cpp Map NodeCount
 007468.cpp
 007469.cpp
 007470.cpp
-007471.cpp Map
+007471.cpp Map NodeCount
 007472.cpp PR
 007473.cpp
-007474.cpp
+007474.cpp Root Nodes NodeCount
 007476.cpp DigitsToLetters
 007477.cpp DigitsToLetters
 007478.cpp
@@ -4592,9 +4592,9 @@
 007546.cpp
 007547.cpp
 007548.cpp
-007549.cpp ThickEtalons ThinEtalons UnusualEtalonNumbers UnusualEtalons
-007550.cpp ThickEtalons ThinEtalons UnusualEtalonNumbers UnusualEtalons
-007551.cpp ThickEtalons ThinEtalons UnusualEtalonNumbers UnusualEtalons
+007549.cpp ThickEtalons ThinEtalons UnusualEtalonNumbers UnusualEtalons LeftBorder RightBorder
+007550.cpp ThickEtalons ThinEtalons UnusualEtalonNumbers UnusualEtalons LeftBorder RightBorder
+007551.cpp ThickEtalons ThinEtalons UnusualEtalonNumbers UnusualEtalons LeftBorder RightBorder
 007552.cpp
 007553.cpp
 007554.cpp
@@ -4618,7 +4618,7 @@
 007572.cpp
 007575.cpp
 007578.cpp PR
-007580.cpp g_IsDebugPrint
+007580.cpp
 007581.cpp
 007583.cpp
 007584.cpp PR
@@ -4653,7 +4653,7 @@
 007619.cpp PR
 007620.cpp Dictionary
 007621.cpp PR
-007622.cpp g_IsDebugPrint
+007622.cpp
 007623.cpp
 007624.cpp
 007625.cpp
@@ -5128,20 +5128,20 @@
 008309.cpp M ancestor dsu g minAncestor q request u
 008310.cpp M ancestor dsu g minAncestor q request u
 008319.cpp
-008329.cpp
+008329.cpp mark star
 008330.cpp
-008331.cpp
-008332.cpp
-008333.cpp
-008334.cpp
-008336.cpp
-008337.cpp
-008338.cpp
-008339.cpp
-008340.cpp
+008331.cpp mark star
+008332.cpp mark star
+008333.cpp mark star
+008334.cpp mark star
+008336.cpp mark star
+008337.cpp mark star
+008338.cpp mark star
+008339.cpp mark star
+008340.cpp mark star
 008341.cpp
-008342.cpp
-008343.cpp
+008342.cpp mark star
+008343.cpp mark star
 008345.cpp M ancestor dsu elements g minAncestor minAncestors q request u
 008348.cpp M ancestor dsu elements g minAncestor minAncestors q request u
 008349.cpp M ancestor dsu elements g minAncestor minAncestors q request u

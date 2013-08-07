@@ -3,9 +3,11 @@ import java.io.*;
 public class ConstFilter {
 
     private File report = new File("REPORT_WITHOUT_CONSTANTS.txt");
-    private String cppDir = "C:\\Users\\serg\\Desktop\\gcc_POLYGON\\runs\\";
+    private String cppDir = "..\\..\\runs\\";
 
-    public void filterConstants() throws IOException {
+
+    public void filterConstants()
+            throws IOException {
         BufferedReader reader = new BufferedReader(new FileReader("report.txt"));
 
         BufferedWriter reportWriter = new BufferedWriter(new FileWriter(report));
@@ -30,19 +32,23 @@ public class ConstFilter {
         reader.close();
     }
 
-    private boolean isConstant(String fileName, String varName) throws IOException {
+
+    private boolean isConstant(String fileName, String varName)
+            throws IOException {
         BufferedReader reader = new BufferedReader(new FileReader(cppDir + fileName));
 
         boolean result = false;
         String line;
         while ((line = reader.readLine()) != null) {
             if (containsVar(line, varName)) {
-                if (line.contains("const")) {
-                    if( ! line.contains("*")){
+                if (line.contains("const ")) {
+                    if (!line.contains("*")) {
                         result = true;
                     }
                     break;
-                } else break;
+                } else {
+                    break;
+                }
             }
         }
 
@@ -51,27 +57,50 @@ public class ConstFilter {
         return result;
     }
 
+
+
     private boolean containsVar(String line, String varName) {
         int varStartPos = line.indexOf(varName);
 
-        if(varStartPos <= 0 || line.length() <= varStartPos + varName.length()){
+        if (varStartPos <= 0 || line.length() <= varStartPos + varName.length()) {
             return false;
         }
 
         boolean beforeOk = isBeforeOk(line, varStartPos);
-        boolean afterOk = isAfterOk(line, varStartPos + varName.length());
+        boolean afterOk = isAfterOkForVar(line, varStartPos + varName.length());
 
         return beforeOk && afterOk;
     }
+
 
     private boolean isBeforeOk(String line, int varStartPos) {
         char c = line.charAt(varStartPos - 1);
         return c == ' ' || c == '>' || c == ',';
     }
 
-    private boolean isAfterOk(String line, int varEndPos) {
+
+    private boolean isAfterOkForVar(String line, int varEndPos) {
         char c = line.charAt(varEndPos);
-        return c == '=' || c == ' ' || c == '[' || c == ';' || c == ',';
+        return c == '=' || c == ' ' || c == '[' || c == ';' || c == ',' || c == '(';
+    }
+
+
+    private boolean isAfterOkForFunction(String line, int varEndPos) {
+        boolean result = false;
+
+        while (varEndPos < line.length()) {
+            final char c = line.charAt(varEndPos);
+            if (c == '(') {
+                result = true;
+                break;
+            } else if (c == ' ') {
+                varEndPos++;
+            } else {
+                break;
+            }
+        }
+
+        return result;
     }
 
 }

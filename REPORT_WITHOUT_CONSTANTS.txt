@@ -3005,7 +3005,7 @@
 004624.cpp
 004626.cpp N depth graph l time_in time_out timer up used
 004629.cpp N depth graph l time_in time_out timer up used
-004630.cpp
+004630.cpp Mapping
 004631.cpp
 004632.cpp
 004633.cpp N depth graph l time_in time_out timer up used
@@ -3241,8 +3241,8 @@
 005035.cpp
 005036.cpp N buttons interp message words
 005037.cpp N buttons interp message words
-005038.cpp empty ch_empty fin fout horiz_codes in ledge_codes pallete redge_codes rpallete vert_codes
-005039.cpp empty ch_empty fin fout horiz_codes in ledge_codes pallete redge_codes rpallete vert_codes
+005038.cpp fin fout horiz_codes in ledge_codes pallete redge_codes rpallete vert_codes
+005039.cpp fin fout horiz_codes in ledge_codes pallete redge_codes rpallete vert_codes
 005049.cpp
 005050.cpp
 005051.cpp
@@ -4663,7 +4663,7 @@
 007629.cpp
 007630.cpp
 007631.cpp EqualVertex a a_pos bhash block brmq bt g h log2 n root
-007633.cpp
+007633.cpp F button dict f i it1 it2 j n
 007634.cpp F button dict f i it1 it2 j n
 007635.cpp g input it_input n
 007636.cpp g input it_input n
@@ -4929,7 +4929,7 @@
 007941.cpp
 007942.cpp
 007943.cpp
-007944.cpp
+007944.cpp tree
 007952.cpp G H ancestors first n order segmentsTree used
 007953.cpp G H ancestors first n order segmentsTree used
 007955.cpp G H ancestors first n order segmentsTree used
@@ -4939,7 +4939,7 @@
 007960.cpp
 007961.cpp
 007962.cpp
-007967.cpp
+007967.cpp Dictionary Tree9
 007968.cpp _q dist predst q res snm ways
 007969.cpp _q dist predst q res snm ways
 007970.cpp
@@ -5128,20 +5128,20 @@
 008309.cpp M ancestor dsu g minAncestor q request u
 008310.cpp M ancestor dsu g minAncestor q request u
 008319.cpp
-008329.cpp mark star
+008329.cpp star
 008330.cpp
-008331.cpp mark star
-008332.cpp mark star
-008333.cpp mark star
-008334.cpp mark star
-008336.cpp mark star
-008337.cpp mark star
-008338.cpp mark star
-008339.cpp mark star
-008340.cpp mark star
+008331.cpp star
+008332.cpp star
+008333.cpp star
+008334.cpp star
+008336.cpp star
+008337.cpp star
+008338.cpp star
+008339.cpp star
+008340.cpp star
 008341.cpp
-008342.cpp mark star
-008343.cpp mark star
+008342.cpp star
+008343.cpp star
 008345.cpp M ancestor dsu elements g minAncestor minAncestors q request u
 008348.cpp M ancestor dsu elements g minAncestor minAncestors q request u
 008349.cpp M ancestor dsu elements g minAncestor minAncestors q request u

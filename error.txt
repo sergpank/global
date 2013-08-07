@@ -1,0 +1,5 @@
+005038.cpp  -ch_empty -empty fin fout horiz_codes in ledge_codes pallete redge_codes rpallete vert_codes
+005038.cpp empty ch_empty fin fout horiz_codes in ledge_codes pallete redge_codes rpallete vert_codes
+
+ch_empty
+empty

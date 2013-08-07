@@ -4,7 +4,7 @@ import java.util.List;
 
 public class ExternVariablesExtractor {
 
-    private String cppDir = "C:\\Users\\serg\\Desktop\\gcc_POLYGON\\runs\\";
+    private String cppDir = "..\\..\\runs\\";
     private File report = new File("REPORT_WITH_EXTERN_VARIABLES.txt");
 
     public void extractExternVariables() throws IOException {
@@ -54,8 +54,6 @@ public class ExternVariablesExtractor {
         List<String> externVariables = new ArrayList<String>();
 
         BufferedReader reader = new BufferedReader(new FileReader(cppFile));
-
-        System.out.println(cppFile.getName());
 
         String line;
         while ((line = reader.readLine()) != null) {

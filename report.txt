@@ -3005,7 +3005,7 @@
 004624.cpp
 004626.cpp N depth graph l time_in time_out timer up used
 004629.cpp N depth graph l time_in time_out timer up used
-004630.cpp
+004630.cpp Mapping
 004631.cpp
 004632.cpp
 004633.cpp N depth graph l time_in time_out timer up used
@@ -4663,7 +4663,7 @@
 007629.cpp
 007630.cpp
 007631.cpp EqualVertex a a_pos bhash block brmq bt g h log2 n root
-007633.cpp
+007633.cpp F button dict f i it1 it2 j n
 007634.cpp F button dict f i it1 it2 j n
 007635.cpp g input it_input n
 007636.cpp g input it_input n
@@ -4929,7 +4929,7 @@
 007941.cpp
 007942.cpp
 007943.cpp
-007944.cpp
+007944.cpp tree
 007952.cpp G H ancestors first n order segmentsTree used
 007953.cpp G H ancestors first n order segmentsTree used
 007955.cpp G H ancestors first n order segmentsTree used
@@ -4939,7 +4939,7 @@
 007960.cpp
 007961.cpp
 007962.cpp
-007967.cpp
+007967.cpp Dictionary Tree9
 007968.cpp _q dist predst q res snm ways
 007969.cpp _q dist predst q res snm ways
 007970.cpp
