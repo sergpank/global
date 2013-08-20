@@ -3,7 +3,7 @@ import java.io.*;
 public class ConstFilter {
 
     private File report = new File("REPORT_WITHOUT_CONSTANTS.txt");
-    private String cppDir = "..\\..\\runs\\";
+    private String cppDir = "C:\\Users\\serg\\Desktop\\gcc_POLYGON\\runs\\";
 
 
     public void filterConstants()
@@ -42,7 +42,7 @@ public class ConstFilter {
         while ((line = reader.readLine()) != null) {
             if (containsVar(line, varName)) {
                 if (line.contains("const ")) {
-                    if (!line.contains("*")) {
+                    if ( ! isPointer(line, varName)) {
                         result = true;
                     }
                     break;
@@ -57,6 +57,13 @@ public class ConstFilter {
         return result;
     }
 
+    private boolean isPointer(String line, String varName) {
+        boolean result = false;
+        if(line.contains("*")){
+            result = line.indexOf("*") < line.indexOf(varName);
+        }
+        return result;
+    }
 
 
     private boolean containsVar(String line, String varName) {

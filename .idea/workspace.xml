@@ -11,12 +11,12 @@
     <file path="/ProgressDialog.java" changelist="0e80abb2-21e7-49e4-ba7c-c8e189d0eb6a" time="1375330780801" ignored="false" />
     <file path="/GlobalSearcher.java" changelist="0e80abb2-21e7-49e4-ba7c-c8e189d0eb6a" time="1375851879391" ignored="false" />
     <file path="/Catch Statement Body.txt.ft" changelist="0e80abb2-21e7-49e4-ba7c-c8e189d0eb6a" time="1375116876253" ignored="false" />
-    <file path="/fragment.java" changelist="0e80abb2-21e7-49e4-ba7c-c8e189d0eb6a" time="1375819654402" ignored="false" />
+    <file path="/fragment.java" changelist="0e80abb2-21e7-49e4-ba7c-c8e189d0eb6a" time="1375893901890" ignored="false" />
     <file path="/FileDetextive.java" changelist="0e80abb2-21e7-49e4-ba7c-c8e189d0eb6a" time="1375328472313" ignored="false" />
     <file path="/FileDetective.java" changelist="0e80abb2-21e7-49e4-ba7c-c8e189d0eb6a" time="1375389391297" ignored="false" />
     <file path="/ImportFixer.java" changelist="0e80abb2-21e7-49e4-ba7c-c8e189d0eb6a" time="1375386255507" ignored="false" />
     <file path="/VCppObjParser.java" changelist="0e80abb2-21e7-49e4-ba7c-c8e189d0eb6a" time="1375635566865" ignored="false" />
-    <file path="/Dummy.txt" changelist="0e80abb2-21e7-49e4-ba7c-c8e189d0eb6a" time="1375648915061" ignored="false" />
+    <file path="/Dummy.txt" changelist="0e80abb2-21e7-49e4-ba7c-c8e189d0eb6a" time="1376232514346" ignored="false" />
     <file path="$USER_HOME$/Google Drive/WORKSPACE/KMP_suffix_tree/src/Vertex.java" changelist="0e80abb2-21e7-49e4-ba7c-c8e189d0eb6a" time="1375640311918" ignored="false" />
     <file path="$USER_HOME$/Google Drive/WORKSPACE/KMP_suffix_tree/src/Edge.java" changelist="0e80abb2-21e7-49e4-ba7c-c8e189d0eb6a" time="1375640311918" ignored="false" />
     <file path="$USER_HOME$/Google Drive/WORKSPACE/KMP_suffix_tree/src/SuffixTree.java" changelist="0e80abb2-21e7-49e4-ba7c-c8e189d0eb6a" time="1375644789218" ignored="false" />
@@ -33,7 +33,7 @@
     <file path="/Parser.java" changelist="0e80abb2-21e7-49e4-ba7c-c8e189d0eb6a" time="1375732366028" ignored="false" />
     <file path="/VcppObjParser.java" changelist="0e80abb2-21e7-49e4-ba7c-c8e189d0eb6a" time="1375732405909" ignored="false" />
     <file path="/ArrayFilter.java" changelist="0e80abb2-21e7-49e4-ba7c-c8e189d0eb6a" time="1375816126974" ignored="false" />
-    <file path="/ConstFilter.java" changelist="0e80abb2-21e7-49e4-ba7c-c8e189d0eb6a" time="1375874525027" ignored="false" />
+    <file path="/ConstFilter.java" changelist="0e80abb2-21e7-49e4-ba7c-c8e189d0eb6a" time="1375895762840" ignored="false" />
     <file path="/ExternVariablesExtractor.java" changelist="0e80abb2-21e7-49e4-ba7c-c8e189d0eb6a" time="1375852504283" ignored="false" />
     <file path="C:/WORK/MinePlanningGitFull/trunk/src/com/solveit/stp/shorttermplanning/activity/StpAssignment.java" changelist="0e80abb2-21e7-49e4-ba7c-c8e189d0eb6a" time="1375874400917" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,38 +50,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/GlobalSearcher.java" line="105" class="GlobalSearcher" package="">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/GlobalSearcher.java" line="150" class="GlobalSearcher" package="">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -118,6 +86,38 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/GlobalSearcher.java" line="105" class="GlobalSearcher" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/ConstFilter.java" line="18" class="ConstFilter" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="fileName.equals(&quot;005038.cpp&quot;)&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
+      </breakpoint>
+    </line_breakpoints>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
@@ -131,19 +131,7 @@
       <file leaf-file-name="GlobalSearcher.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GlobalSearcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="150" column="0" selection-start="5753" selection-end="5753" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#2894#3062#0" expanded="true" />
-                <element signature="e#3051#3052#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GccObjParser.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/parser/GccObjParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="28" selection-start="665" selection-end="665" vertical-scroll-proportion="0.0">
+            <state line="150" column="28" selection-start="5816" selection-end="5816" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -152,7 +140,7 @@
       <file leaf-file-name="ExternVariablesExtractor.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ExternVariablesExtractor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="19" selection-start="704" selection-end="704" vertical-scroll-proportion="0.0">
+            <state line="6" column="66" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -167,10 +155,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="0" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ConstFilter.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ConstFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="26" selection-start="542" selection-end="542" vertical-scroll-proportion="0.44688028">
+            <state line="52" column="62" selection-start="1654" selection-end="1654" vertical-scroll-proportion="1.4094754">
               <folding />
             </state>
           </provider>
@@ -198,18 +195,18 @@
         <option value="$PROJECT_DIR$/SUBMISSION_3.txt" />
         <option value="$PROJECT_DIR$/SUBMISSION_4.txt" />
         <option value="$PROJECT_DIR$/src/ArrayFilter.java" />
+        <option value="$PROJECT_DIR$/src/parser/GccObjParser.java" />
         <option value="$PROJECT_DIR$/src/GlobalSearcher.java" />
         <option value="$PROJECT_DIR$/src/ExternVariablesExtractor.java" />
-        <option value="$PROJECT_DIR$/src/parser/GccObjParser.java" />
         <option value="$PROJECT_DIR$/src/ConstFilter.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1176" />
+    <option name="y" value="32" />
+    <option name="width" value="1296" />
+    <option name="height" value="776" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -258,7 +255,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -273,7 +270,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="global" />
+              <option name="myItemId" value="GlobalVariables" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -283,35 +280,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="global" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
               <option name="myItemId" value="GlobalVariables" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="global" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="parser" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -323,7 +302,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="fileTemplates" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SuffixTree/sergpank" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -562,34 +541,34 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="32" width="1296" height="776" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284169" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46116027" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46029174" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3306321" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24919957" sideWeight="0.5840708" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4159292" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24878444" sideWeight="0.58508915" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41491085" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284169" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3306321" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -658,13 +637,36 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/parser/GccObjParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="28" selection-start="665" selection-end="665" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExternVariablesExtractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="19" selection-start="704" selection-end="704" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SUBMISSION_6.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ConstFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="26" selection-start="542" selection-end="542" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/GlobalSearcher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#2894#3062#0" expanded="true" />
-            <element signature="e#3051#3052#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -688,13 +690,6 @@
         <state line="5247" column="19" selection-start="158859" selection-end="158859" vertical-scroll-proportion="0.934375" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service data/vc_nm.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -707,33 +702,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GlobalSearcher.java">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="150" column="0" selection-start="5753" selection-end="5753" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#2894#3062#0" expanded="true" />
-            <element signature="e#3051#3052#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExternVariablesExtractor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="19" selection-start="704" selection-end="704" vertical-scroll-proportion="0.0">
+        <state line="9" column="0" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/parser/GccObjParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="28" selection-start="665" selection-end="665" vertical-scroll-proportion="0.0">
+        <state line="21" column="28" selection-start="665" selection-end="665" vertical-scroll-proportion="1.1628665" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExternVariablesExtractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="66" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GlobalSearcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="150" column="28" selection-start="5816" selection-end="5816" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ConstFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="26" selection-start="542" selection-end="542" vertical-scroll-proportion="0.44688028">
+        <state line="52" column="62" selection-start="1654" selection-end="1654" vertical-scroll-proportion="1.4094754">
           <folding />
         </state>
       </provider>

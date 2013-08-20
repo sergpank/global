@@ -18,7 +18,7 @@ public class GlobalSearcher extends SwingWorker {
     public GlobalSearcher(String cppFilesDirectoryPath, String outputFile, JFrame gui) {
         this.cppFilesDirectoryPath = cppFilesDirectoryPath;
         objFilesDirectoryPath = "C:\\Users\\serg\\Desktop\\gcc_POLYGON\\VC_NM";
-        nmFilesDirectoryPath = "..\\GCC_NM";
+        nmFilesDirectoryPath = "C:\\Users\\serg\\Desktop\\gcc_POLYGON\\GCC_NM";
         this.outputFile = outputFile.length() == 0 ? "report.txt" : outputFile;
         this.gui = gui;
     }

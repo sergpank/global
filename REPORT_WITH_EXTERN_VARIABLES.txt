@@ -5128,20 +5128,20 @@
 008309.cpp M ancestor dsu g minAncestor q request u
 008310.cpp M ancestor dsu g minAncestor q request u
 008319.cpp
-008329.cpp star
+008329.cpp
 008330.cpp
-008331.cpp star
-008332.cpp star
-008333.cpp star
-008334.cpp star
-008336.cpp star
-008337.cpp star
-008338.cpp star
-008339.cpp star
-008340.cpp star
+008331.cpp
+008332.cpp
+008333.cpp
+008334.cpp
+008336.cpp
+008337.cpp
+008338.cpp
+008339.cpp
+008340.cpp
 008341.cpp
-008342.cpp star
-008343.cpp star
+008342.cpp
+008343.cpp
 008345.cpp M ancestor dsu elements g minAncestor minAncestors q request u
 008348.cpp M ancestor dsu elements g minAncestor minAncestors q request u
 008349.cpp M ancestor dsu elements g minAncestor minAncestors q request u
